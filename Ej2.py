@@ -1,6 +1,6 @@
 # Ejercicio 2:
 # Ejercicio 2.a - BLAST.
-# Escribir un script que realice un BLAST de una o varias secuencias (si son variasse realiza un Blast por cada secuencia input) 
+# Escribir un script que realice un BLAST de una o varias secuencias (si son varias se realiza un Blast por cada secuencia input) 
 # y escriba el resultado (blast output) en un archivo. 
 
 # Nota: Pueden ejecutar BLAST de manera remota o bien localmente (si hacen ambos tienen más puntos!),para esto deben instalarse0
@@ -16,26 +16,25 @@
 from Bio import SeqIO
 from Bio.Blast import NCBIWWW
 from Bio.Blast import NCBIXML
+import numpy as np
 
-def DO_BLAST(sequence_data , output):
+def perform_blast(sequence_file):
+    # Aquí deberías tener la lógica para realizar el BLAST con el archivo de secuencias
+    # Este es solo un ejemplo de cómo se llamaría al BLAST con Biopython
+    result_handle = NCBIWWW.qblast("blastn", "nt", open(sequence_file).read())
     
-    # Realizar BLAST de la secuencia
-    result_handle = NCBIWWW.qblast("blastn", "nt", sequence_data)
+    # Puedes hacer lo que quieras con el resultado del BLAST aquí
+    # Por ahora, simplemente imprimimos los resultados
+    print(result_handle.read())
 
-    # Guardar el resultado en un archivo
-    with open(output, "w") as out_handle:
-        out_handle.write(result_handle.read())
-
-    result_handle.close()
-
-for seq_file, out_file in zip(sequences, output_files):
-    # Leer la secuencia del archivo FASTA
-    seq_record = SeqIO.read(seq_file, "fasta")
-
-    # Realizar BLAST y guardar el resultado en un archivo
-    DO_BLAST(seq_record.seq, out_file)
-
-print("BLAST completado y resultados guardados.")
+if __name__ == "__main__":
+    if "--output-fasta" in sys.argv:
+        fasta_file = generate_sequences_fasta()
+        print(fasta_file)
+    else:
+        # Esperamos que el primer argumento sea el archivo FASTA de entrada
+        fasta_file = sys.argv[1]
+        perform_blast(fasta_file)
 
 # Ejercicio 2.b - Interpretación del resultado del BLAST.
 # Dar una explicación del resultado blast obtenidoen términos # de las secuencias enscontradas y dar una explicación 
