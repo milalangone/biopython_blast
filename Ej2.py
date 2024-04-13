@@ -18,23 +18,29 @@ from Bio.Blast import NCBIWWW
 from Bio.Blast import NCBIXML
 import numpy as np
 
-def perform_blast(sequence_file):
-    # Aquí deberías tener la lógica para realizar el BLAST con el archivo de secuencias
-    # Este es solo un ejemplo de cómo se llamaría al BLAST con Biopython
-    result_handle = NCBIWWW.qblast("blastn", "nt", open(sequence_file).read())
-    
-    # Puedes hacer lo que quieras con el resultado del BLAST aquí
-    # Por ahora, simplemente imprimimos los resultados
-    print(result_handle.read())
+def DO_BLAST(sequence_data, output_file):
 
-if __name__ == "__main__":
-    if "--output-fasta" in sys.argv:
-        fasta_file = generate_sequences_fasta()
-        print(fasta_file)
-    else:
-        # Esperamos que el primer argumento sea el archivo FASTA de entrada
-        fasta_file = sys.argv[1]
-        perform_blast(fasta_file)
+    # Realizar BLAST de la secuencia
+    result_handle = NCBIWWW.qblast("blastn", "nt", sequence_data)
+
+    # Guardar el resultado en un archivo
+    with open(output_file, "w") as out_handle:
+        out_handle.write(result_handle.read())
+
+    result_handle.close()
+
+# Lista de secuencias de entrada
+# sequences = ["path/to/sequence1.fasta", "path/to/sequence2.fasta"]
+# output_files = ["blast_result1.xml", "blast_result2.xml"]
+
+for seq_file, out_file in zip(sequences, output_files):
+    # Leer la secuencia del archivo FASTA
+    seq_record = SeqIO.read(seq_file, "fasta")
+
+    # Realizar BLAST y guardar el resultado en un archivo
+    DO_BLAST(seq_record.seq, out_file)
+
+print("BLAST completado y resultados guardados.")
 
 # Ejercicio 2.b - Interpretación del resultado del BLAST.
 # Dar una explicación del resultado blast obtenidoen términos # de las secuencias enscontradas y dar una explicación 
