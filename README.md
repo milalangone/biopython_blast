@@ -1,6 +1,6 @@
 # biopython_blast
 
-El archivo pipeline.sh permite ejecutar el ejercicio 1 integramente. Se debe contar con un archivo de secuencias llamado "sequence.gb" en el mismo path. (Descargar del notion y no pushear9
+El archivo pipeline.sh permite ejecutar el ejercicio 1 integramente. Se debe contar con un archivo de secuencias llamado "sequence.gb" en el mismo path. (Descargar del notion y no pushear)
 
 
 ## Ejercicio 1
@@ -12,5 +12,8 @@ best_rf.py
   input: un unico archivo en formato fasta con varias secuencias de aminoacidos con sus correspondientes ids.
   output: archivo en formato fasta con la secuencia de aminoacidos mas larga.
 
-## Ejercicio 2a 
-Habría que ver de qué manera salen los archivos en bash para poder ingresarlos.
+## Ejercicio 2 
+Ex2.py
+  Toma el archivo fasta de salida y realiza un BLAST a la misma, dejando los resultados en un archivo blast.out
+  input: archivo en formato fasta de la secuencia de AA más larga
+  output: archivo output del BLAST realizado para esta secuencia de AA más larga.
