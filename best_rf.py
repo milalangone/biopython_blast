@@ -11,5 +11,5 @@ sequences = utils.read_fasta_file(args['t'])
 longest_sequence_id = max(sequences, key=lambda x: len(sequences[x]))
 longest_sequence = sequences[longest_sequence_id]
 
-longest_sequence_dict = {longest_sequence_id: longest_sequence}
+longest_sequence_dict = {longest_sequence_id: SeqRecord(longest_sequence)}
 utils.write_fasta_file('fasta_longest.fasta', longest_sequence_dict)

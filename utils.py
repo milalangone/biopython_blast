@@ -1,4 +1,5 @@
 from Bio import SeqIO
+from Bio.SeqRecord import SeqRecord
 
 def read_genbank_file(filename):
     records = SeqIO.parse(filename, 'genbank')
