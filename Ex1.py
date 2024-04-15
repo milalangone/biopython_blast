@@ -2,6 +2,7 @@ from Bio.Seq import Seq
 from Bio import SeqIO
 from Bio.SeqRecord import SeqRecord
 import argparse
+import utils
 
 ap = argparse.ArgumentParser()
 ap.add_argument('-s')
@@ -36,27 +37,20 @@ def translate_frames(transcript, seq_id, reading_frames = 3):
 def reverse_complement(sequence):
     return sequence.reverse_complement()
 
-def write_fasta_file(filename,sequences):
-    with open(filename, "w") as fasta_file:
-        for key, value in sequences.items():
-            for i in range(len(value)):
-                SeqIO.write(value[i], fasta_file, "fasta")
-
 
 genbank_file = args['s']
-records = SeqIO.parse(genbank_file, 'genbank')
 
+sequences = utils.read_genbank_file(genbank_file)
 translations_dict = {}
 
-for record in records:
-    seq_id = record.id
-    sequence = record.seq
-    transcript = Seq(sequence)
-    translations = translate_frames(transcript, seq_id)
+for key, value in sequences.items():
+    transcript = Seq(value)
+    translations = translate_frames(transcript, key)
     reversed_transcript = reverse_complement(transcript)
-    translations.extend(translate_frames(reversed_transcript, '-' + seq_id))
-    translations_dict[seq_id] = translations
+    translations.extend(translate_frames(reversed_transcript, '-' + key))
+    translations_dict[key] = translations
+
     
-write_fasta_file('fasta_output.fasta',translations_dict)
+utils.write_fasta_file('fasta_output.fasta',translations_dict)
 
 
