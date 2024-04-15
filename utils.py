@@ -1,6 +1,6 @@
 from Bio import SeqIO
 
-def read_genbank_file(filename, sequences):
+def read_genbank_file(filename):
     records = SeqIO.parse(filename, 'genbank')
     sequences = {}
     for record in records:
