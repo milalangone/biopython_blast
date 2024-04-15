@@ -9,7 +9,7 @@ ap.add_argument('-s')
 args = vars(ap.parse_args())
 
 def find_start_codons(sequence, frame):
-    start_codon = "ATG"  # El codón de inicio común es "AUG"
+    start_codon = "ATG"  # El codón de inicio común es "ATG"
     start_codon_indices = []
     
     for i in range(frame, len(sequence) - 2, 3):
