@@ -11,6 +11,7 @@ from Bio import SeqIO
 from Bio.Blast import NCBIWWW
 from Bio.Blast import NCBIXML
 import argparse
+import utils
 
 def do_blast(sequence_data, output_file):
     # Realizar BLAST de la secuencia
@@ -22,29 +23,24 @@ def do_blast(sequence_data, output_file):
 
     result_handle.close()
 
-if __name__ == "__main__":
-    ap = argparse.ArgumentParser()
-    ap.add_argument('-f', help='Para ingresar la o las secuencias con mejor Reading Frame en formato Fasta')
-    args = vars(ap.parse_args())
 
-    # Verificar si se proporcionó el argumento '-f'
-    if args['f']:
-        # Lista de secuencias de entrada
-        sequence_files = args['f'].split(',')  # Permitir múltiples archivos separados por comas
-        
-        for seq_file in sequence_files:
-            # Leer la secuencia del archivo FASTA
-            seq_record = SeqIO.read(seq_file, "fasta")
+ap = argparse.ArgumentParser()
+ap.add_argument('-f', help='Para ingresar la o las secuencias con mejor Reading Frame en formato Fasta')
+args = vars(ap.parse_args())
 
-            # Definir el nombre del archivo de salida
-            output_file = seq_file.split('.')[0] + "_blast.out"
+# Verificar si se proporcionó el argumento '-f'
+if args['f']:
+    sequences = utils.read_fasta_file(args['f'])
+    for key, value in sequences.items():
+        output_file = key + "_blast.out"
 
-            # Realizar BLAST y guardar el resultado en un archivo
-            do_blast(seq_record.seq, output_file)
+        # Realizar BLAST y guardar el resultado en un archivo
+        do_blast(value, output_file)
 
-        print("BLAST completado y resultados guardados.")
-    else:
-        print("Error: Debes proporcionar al menos un archivo de secuencia con el argumento '-f'.")
+    print("BLAST completado y resultados guardados.")
+    
+else:
+    print("Error: Debes proporcionar al menos un archivo de secuencia con el argumento '-f'.")
 
 
 # Ejercicio 2.b - Interpretación del resultado del BLAST.

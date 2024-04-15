@@ -11,12 +11,10 @@ def read_genbank_file(filename):
 def write_fasta_file(filename, sequences):
     with open(filename, "w") as fasta_file:
         for key, value in sequences.items():
-            for i in range(len(value)):
-                SeqIO.write(value[i], fasta_file, "fasta")
+        	SeqIO.write(value, fasta_file, 'fasta')
 
-def read_fasta_file(file_path):
+def read_fasta_file(filename):
     sequences = {}
-    with open(file_path, "r") as handle:
-        for record in SeqIO.parse(handle, "fasta"):
-            sequences[record.id] = str(record.seq)
+    for record in SeqIO.parse(filename, 'fasta'):
+    	sequences[record.id] = str(record.seq)
     return sequences

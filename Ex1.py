@@ -9,7 +9,7 @@ ap.add_argument('-s')
 args = vars(ap.parse_args())
 
 def find_start_codons(sequence, frame):
-    start_codon = "ATG"  # El codón de inicio común es "AUG"
+    start_codon = "ATG"  # El codón de inicio común es "ATG"
     start_codon_indices = []
     
     for i in range(frame, len(sequence) - 2, 3):
@@ -27,7 +27,7 @@ def translate_frames(transcript, seq_id, reading_frames = 3):
         if idx:
             subtranscript = transcript[idx[0]:]
             aa_seq = subtranscript.translate(to_stop = True)
-            seq_record = SeqRecord(aa_seq, id=f"{seq_id}_frame_{frame}")
+            seq_record = SeqRecord(Seq(aa_seq), id=f"{seq_id}_frame_{frame}")
             translations.append(seq_record)
         else:
             translations.append(SeqRecord(Seq("None"), id=f"{transcript.id}_frame_{frame}"))
@@ -51,6 +51,6 @@ for key, value in sequences.items():
     translations_dict[key] = translations
 
     
-utils.write_fasta_file('fasta_output.fasta',translations_dict)
+utils.write_fasta_file("fasta_output.fasta", translations_dict)
 
 
