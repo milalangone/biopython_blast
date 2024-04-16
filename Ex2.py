@@ -7,10 +7,8 @@
 # Deben entregar el script Ex2.pm y su input file con una breve descripción de lo que hicieron, con una interpretación 
 # de los resultados del Blast, y mencionar como se debe ejecutar para probarlo.
 
-from Bio import SeqIO
 from Bio.Blast import NCBIWWW
 from Bio.Blast import NCBIXML
-import argparse
 import utils
 
 def do_blast(sequence_data, output_file):
@@ -24,7 +22,7 @@ def do_blast(sequence_data, output_file):
     result_handle.close()
 
 
-ap = argparse.ArgumentParser()
+ap = utils.argparse.ArgumentParser()
 ap.add_argument('-f', help='Para ingresar la o las secuencias con mejor Reading Frame en formato Fasta')
 args = vars(ap.parse_args())
 
