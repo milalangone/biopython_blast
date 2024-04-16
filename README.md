@@ -1,6 +1,6 @@
 # TP 1 - Bioinformática
 
-El archivo **pipeline.sh** permite ejecutar el ejercicio 1, 2 y 3 íntegramente. Se debe contar con un archivo de secuencias llamado "sequence.gb" en el mismo _path_, decidimos no incluirlo en este repositorio, pero puede descargarse en el siguiente [enlace]([enlace](https://drive.google.com/file/d/1kc1isJw3agbjIMkszY0KfMPjylPciBxx/view?usp=sharing)).
+El archivo **pipeline.sh** permite ejecutar el ejercicio 1, 2 y 3 íntegramente. Se debe contar con un archivo de secuencias llamado "sequence.gb" en el mismo _path_, decidimos no incluirlo en este repositorio, pero puede descargarse en el siguiente [enlace](https://drive.google.com/file/d/1kc1isJw3agbjIMkszY0KfMPjylPciBxx/view?usp=sharing).
 
 ## Ejercicio 1
 
