@@ -23,5 +23,5 @@ def read_fasta_file(filename):
 
 def read_blast(filename):
     from Bio import SearchIO
-    blast_records = SearchIO.parse(filename, "blast-text")
+    blast_records = SearchIO.parse(filename, "blast-xml")
     return blast_records
