@@ -21,7 +21,7 @@ El archivo **pipeline.sh** permite ejecutar el ejercicio 1, 2 y 3 íntegramente.
   - Toma el archivo fasta de salida y realiza un BLAST a la misma, dejando los resultados en un archivo blast.out
   - input: archivo en formato fasta de la secuencia de AA más larga
   - output: archivo output del BLAST realizado para esta secuencia de AA más larga.
- 
+
 ## Ejercicio 3
 
 - **Ex3.py**
