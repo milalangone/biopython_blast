@@ -1,68 +1,70 @@
 from Bio import SeqIO
-from Bio import AlignIO
 import pandas as pd
 import time
 import utils
+import glob
 import subprocess
 
 def progresive_alignment(archivo_entrada, archivo_salida = "progresive_output.fasta"):
-    from Bio.Align.Applications import ClustalOmegaCommandline
-    clustalomega_cline = ClustalOmegaCommandline(infile=archivo_entrada, outfile=archivo_salida, verbose=True, dealign = True)
-    stdout, stderr = clustalomega_cline()
-    return stdout, stderr
-
-
-def star_center_alignment(archivo_entrada, archivo_salida = "star_center_output.fasta"):
-    from Bio.Align.Applications import TCoffeeCommandline
-    tcoffee_cline = TCoffeeCommandline(infile=archivo_entrada, output=archivo_salida)
-    stdout, stderr = tcoffee_cline()
-    return stdout, stderr
+	from Bio.Align.Applications import ClustalOmegaCommandline
+	clustalomega_cline = ClustalOmegaCommandline(infile=archivo_entrada, outfile=archivo_salida, force = True)
+	print("help ", help(ClustalOmegaCommandline))
+	stdout, _ = clustalomega_cline()
+	return stdout
 
 
 def iterative_alignment(archivo_entrada, archivo_salida = "iterative_output.fasta"):
     from Bio.Align.Applications import MuscleCommandline
     mafft_cline = MuscleCommandline(input=archivo_entrada, out=archivo_salida)
-    stdout, stderr = mafft_cline()
-    return stdout, stderr
+    stdout, _ = mafft_cline()
+    return stdout
 
 def calculate_excecution_time(func):
     start_time = time.time()
-    _, stderr = func("sequences_10.fasta")
+    stdout = func("sequences_10.fasta")
     end_time = time.time()
     execution_time = end_time - start_time
-    return stderr, execution_time
+    return stdout, execution_time
 
-query = utils.read_fasta_file("fasta_longest.fasta")
-blast_records = utils.read_blast("NM_024110.40_blast.out")
 
-sequences_10 = {}
-sequences_count = 0 
+ap = utils.argparse.ArgumentParser()
+ap.add_argument('-q')
+args = vars(ap.parse_args())
 
-for blast_record in blast_records:
-    for hit in blast_record.hits:
-        for hsp in hit.hsps:
-            if sequences_count < 10: 
-                sequences_10[hsp.hit.id] = hsp.hit.seq
-                sequences_count += 1
-            else:
-                break 
-    if sequences_count >= 10:
-        break 
+if args['q']:
+	query = utils.read_fasta_file(args['q'])
+	blast_file = glob.glob("*.out")
+	blast_records = utils.read_blast(blast_file[0])
 
-sequences_10.update(query)
-utils.write_fasta_file("sequences_10.fasta",sequences_10)
+	sequences_10 = {}
+	sequences_count = 0 
 
-stderr_p, tiempo_ejecucion_p = calculate_excecution_time(progresive_alignment)
-print("Error progresivo: ", stderr_p)
-stderr_i, tiempo_ejecucion_i = calculate_excecution_time(iterative_alignment)
-#stderr_s, tiempo_ejecucion_s = calculate_excecution_time(star_center_alignment)
+	for blast_record in blast_records:
+		for hit in blast_record.hits:
+			for hsp in hit.hsps:
+				if sequences_count < 10: 
+					sequences_10[hsp.hit.id] = hsp.hit.seq
+					sequences_count += 1
+				else:
+					break 
+			if sequences_count >= 10:
+				break 
 
-data = {
-    "Función de Alineamiento": ["Progresivo", "Iterativo"],
-    "Tiempo de Ejecución (s)": [tiempo_ejecucion_p, tiempo_ejecucion_i]
-}
+	sequences_10.update(query)
+	utils.write_fasta_file("sequences_10.fasta",sequences_10)
+	
+	stdout_p, tiempo_ejecucion_p = calculate_excecution_time(progresive_alignment)
+	stdout_i, tiempo_ejecucion_i = calculate_excecution_time(iterative_alignment)
 
-df = pd.DataFrame(data)
-print(df)
+	data = {
+	    "Función de Alineamiento": ["Progresivo", "Iterativo"],
+	    "Tiempo de Ejecución (s)": [tiempo_ejecucion_p, tiempo_ejecucion_i]
+	}
+
+	df = pd.DataFrame(data)
+	print("El tiempo de ejecucion de cada algoritmo es: ", df)
+	print('Alineamiento multiple realizado y resultados guardados con exito')
+else:
+	print("Error: Debes proporcionar al menos un archivo de secuencia query con el argumento -q")
 
 
