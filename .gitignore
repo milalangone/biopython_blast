@@ -1,2 +1,7 @@
 # No debemos subir el archivo de secuencia
 sequence.gb 
+transcript_3.gb
+fasta_longest.fasta
+fasta_output.fasta
+NM_001257970.10_blast.out
+Log.log

@@ -12,9 +12,10 @@ from Bio.Blast import NCBIXML
 import utils
 
 def do_blast(sequence_data, output_file):
+    print("Por empezar a realizar el Blast")
     # Realizar BLAST de la secuencia
-    result_handle = NCBIWWW.qblast("blastp", "nr", sequence_data)
-
+    result_handle = NCBIWWW.qblast("blastp", "swissprot", sequence_data, hitlist_size=20)
+    print("Blast Finalizado")
     # Guardar el resultado en un archivo
     with open(output_file, "w") as out_handle:
         out_handle.write(result_handle.read())
