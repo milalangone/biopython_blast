@@ -38,3 +38,20 @@ if [ $? -ne 0 ]; then
 else
   echo "Pandas is already installed."
 fi
+
+clustalo --version 
+if [ $? -ne 0 ]; then
+  echo "Clustalo is not installed. Installing Clustalo..."
+  sudo apt update
+  sudo apt-get install clustalo
+else
+  echo "Clustalo is already installed."
+fi
+
+muscle -version 
+if [ $? -ne 0 ]; then
+  echo "Muscle is not installed. Installing Muscle..."
+  sudo apt-get install myscle
+else
+  echo "Muscle is already installed."
+fi
