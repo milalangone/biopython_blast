@@ -26,15 +26,15 @@ fi
 python3 -c "import Bio" 
 if [ $? -ne 0 ]; then
   echo "Biopython is not installed. Installing Biopython..."
-  pip3 install biopython -y
+  pip3 install biopython
 else
   echo "Biopython is already installed."
 fi
 
-python3 -c "import pandas"
+python3 -c "import pandas" &>/dev/null
 if [ $? -ne 0 ]; then
   echo "Pandas is not installed. Installing Pandas..."
-  pip3 install pandas -y
+  pip3 install pandas
 else
   echo "Pandas is already installed."
 fi
