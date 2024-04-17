@@ -1,6 +1,5 @@
 # No queremos subir estos archivos
 *.gb
-!sequence.gb
 *.fasta
 *.out
 *.log
