@@ -1,5 +1,5 @@
 # If environment is not prepared, prepare it or stop execution if needed
-source prepare_env.sh
+sh prepare_env.sh
 if [ $? -ne 0 ]; then
   echo "Error in prepare_env.sh - Something could not be installed/upgraded - Check before running this script again."
   exit 1
