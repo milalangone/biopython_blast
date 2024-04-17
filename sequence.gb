@@ -1,0 +1,1384 @@
+LOCUS       NM_001257970            2612 bp    mRNA    linear   PRI 06-FEB-2024
+DEFINITION  Homo sapiens caspase recruitment domain family member 14 (CARD14),
+            transcript variant 3, mRNA.
+ACCESSION   NM_001257970
+VERSION     NM_001257970.1
+KEYWORDS    RefSeq.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 2612)
+  AUTHORS   Li,N., Tao,J., Zhang,J., Liu,Z. and Yu,P.
+  TITLE     A novel mutation in a CARD14-associated papulosquamous eruption
+  JOURNAL   Pediatr Dermatol 40 (4), 706-709 (2023)
+   PUBMED   36724903
+  REMARK    GeneRIF: A novel mutation in a CARD14-associated papulosquamous
+            eruption.
+REFERENCE   2  (bases 1 to 2612)
+  AUTHORS   Trai,N.N., Van Em,D., Van,B.T., My,L.H., Van Tro,C., Hao,N.T.,
+            Vu,H.A., Tram,D.B., Van Thuong,N. and Doanh,L.H.
+  TITLE     Correlation of IL36RN and CARD14 mutations with clinical
+            manifestations and laboratory findings in patients with generalised
+            pustular psoriasis
+  JOURNAL   Indian J Dermatol Venereol Leprol 89 (3), 378-384 (2023)
+   PUBMED   36331855
+  REMARK    GeneRIF: Correlation of IL36RN and CARD14 mutations with clinical
+            manifestations and laboratory findings in patients with generalised
+            pustular psoriasis.
+REFERENCE   3  (bases 1 to 2612)
+  AUTHORS   Niaouris,A., Hernandez-Cordero,A., Haddad,S., Hassi,N.K.,
+            Benzian-Olsson,N., Bugarin Diz,C., Burden,A.D., Cooper,H.L.,
+            Griffiths,C.E.M., Parslew,R., Pink,A.E., Reynolds,N.J., Wahie,S.,
+            Warren,R.B., Wright,A., Simpson,M., Baum,P., Visvanathan,S.,
+            Barker,J.N., Smith,C.H. and Capon,F.
+  CONSRTM   APRICOT and PLUM study team
+  TITLE     Damaging Alleles Affecting Multiple CARD14 Domains Are Associated
+            with Palmoplantar Pustulosis
+  JOURNAL   J Invest Dermatol 143 (3), 504-508 (2023)
+   PUBMED   36174714
+  REMARK    GeneRIF: Damaging Alleles Affecting Multiple CARD14 Domains Are
+            Associated with Palmoplantar Pustulosis.
+REFERENCE   4  (bases 1 to 2612)
+  AUTHORS   Msafiri Makene,A. and Liu,J.L.
+  TITLE     Association between CARD14 gene polymorphisms and psoriasis
+            vulgaris in Hainan Han population based on exon sequencing: A
+            case-control study
+  JOURNAL   Medicine (Baltimore) 101 (40), e30890 (2022)
+   PUBMED   36221432
+  REMARK    GeneRIF: Association between CARD14 gene polymorphisms and
+            psoriasis vulgaris in Hainan Han population based on exon
+            sequencing: A case-control study.
+REFERENCE   5  (bases 1 to 2612)
+  AUTHORS   Suleman,S., Chhabra,G., Raza,R., Hamid,A., Qureshi,J.A. and
+            Ahmad,N.
+  TITLE     Association of CARD14 Single-Nucleotide Polymorphisms with
+            Psoriasis
+  JOURNAL   Int J Mol Sci 23 (16), 9336 (2022)
+   PUBMED   36012602
+  REMARK    GeneRIF: Association of CARD14 Single-Nucleotide Polymorphisms with
+            Psoriasis.
+            Publication Status: Online-Only
+REFERENCE   6  (bases 1 to 2612)
+  AUTHORS   Speckman,R.A., Wright Daw,J.A., Helms,C., Duan,S., Cao,L.,
+            Taillon-Miller,P., Kwok,P.Y., Menter,A. and Bowcock,A.M.
+  TITLE     Novel immunoglobulin superfamily gene cluster, mapping to a region
+            of human chromosome 17q25, linked to psoriasis susceptibility
+  JOURNAL   Hum Genet 112 (1), 34-41 (2003)
+   PUBMED   12483297
+  REMARK    GeneRIF: Chromosome 17q25 harbors a susceptibility locus for
+            psoriasis. Non-parametric linkage analysis revealed a linkage peak
+            lying close to a novel cluster of genes from the immunoglobulin
+            (Ig) superfamily.
+REFERENCE   7  (bases 1 to 2612)
+  AUTHORS   Wang,L., Guo,Y., Huang,W.J., Ke,X., Poyet,J.L., Manji,G.A.,
+            Merriam,S., Glucksmann,M.A., DiStefano,P.S., Alnemri,E.S. and
+            Bertin,J.
+  TITLE     Card10 is a novel caspase recruitment domain/membrane-associated
+            guanylate kinase family member that interacts with BCL10 and
+            activates NF-kappa B
+  JOURNAL   J Biol Chem 276 (24), 21405-21409 (2001)
+   PUBMED   11259443
+REFERENCE   8  (bases 1 to 2612)
+  AUTHORS   Gaide,O., Martinon,F., Micheau,O., Bonnet,D., Thome,M. and
+            Tschopp,J.
+  TITLE     Carma1, a CARD-containing binding partner of Bcl10, induces Bcl10
+            phosphorylation and NF-kappaB activation
+  JOURNAL   FEBS Lett 496 (2-3), 121-127 (2001)
+   PUBMED   11356195
+REFERENCE   9  (bases 1 to 2612)
+  AUTHORS   Bertin,J., Wang,L., Guo,Y., Jacobson,M.D., Poyet,J.L.,
+            Srinivasula,S.M., Merriam,S., DiStefano,P.S. and Alnemri,E.S.
+  TITLE     CARD11 and CARD14 are novel caspase recruitment domain
+            (CARD)/membrane-associated guanylate kinase (MAGUK) family members
+            that interact with BCL10 and activate NF-kappa B
+  JOURNAL   J Biol Chem 276 (15), 11877-11882 (2001)
+   PUBMED   11278692
+REFERENCE   10 (bases 1 to 2612)
+  AUTHORS   Tomfohrde,J., Silverman,A., Barnes,R., Fernandez-Vina,M.A.,
+            Young,M., Lory,D., Morris,L., Wuepper,K.D., Stastny,P., Menter,A.
+            et al.
+  TITLE     Gene for familial psoriasis susceptibility mapped to the distal end
+            of human chromosome 17q
+  JOURNAL   Science 264 (5162), 1141-1145 (1994)
+   PUBMED   8178173
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from BC018142.1 and AC087741.18.
+            
+            Summary: This gene encodes a caspase recruitment domain-containing
+            protein that is a member of the membrane-associated guanylate
+            kinase (MAGUK) family of proteins. Members of this protein family
+            are scaffold proteins that are involved in a diverse array of
+            cellular processes including cellular adhesion, signal transduction
+            and cell polarity control. This protein has been shown to
+            specifically interact with BCL10, a protein known to function as a
+            positive regulator of cell apoptosis and NF-kappaB activation.
+            Alternate splicing results in multiple transcript variants.
+            [provided by RefSeq, Apr 2012].
+            
+            Transcript Variant: This variant (3) lacks several exons and its
+            transcription extends past a splice site that is used in variant 1.
+            The encoded isoform 3 has a shorter C-terminus, compared to isoform
+            1.
+            
+            Sequence Note: This RefSeq record was created from transcript and
+            genomic sequence data to make the sequence consistent with the
+            reference genome assembly. The genomic coordinates used for the
+            transcript record were based on transcript alignments.
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: BC018142.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+                                           SAMEA2145893, SAMEA2147596
+                                           [ECO:0000348]
+            ##Evidence-Data-END##
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-800               BC018142.1         10-809
+            801-801             AC087741.18        25977-25977         c
+            802-2612            BC018142.1         811-2621
+FEATURES             Location/Qualifiers
+     source          1..2612
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="17"
+                     /map="17q25.3"
+     gene            1..2612
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /note="caspase recruitment domain family member 14"
+                     /db_xref="GeneID:79092"
+                     /db_xref="HGNC:HGNC:16446"
+                     /db_xref="MIM:607211"
+     exon            1..148
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            149..379
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     CDS             169..2391
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /note="isoform 3 is encoded by transcript variant 3;
+                     bcl10-interacting maguk protein 2; caspase recruitment
+                     domain-containing protein 14; CARD-containing MAGUK
+                     protein 2"
+                     /codon_start=1
+                     /product="caspase recruitment domain-containing protein 14
+                     isoform 3"
+                     /protein_id="NP_001244899.1"
+                     /db_xref="CCDS:CCDS58605.1"
+                     /db_xref="GeneID:79092"
+                     /db_xref="HGNC:HGNC:16446"
+                     /db_xref="MIM:607211"
+                     /translation="MGELCRRDSALTALDEETLWEMMESHRHRIVRCICPSRLTPYLR
+                     QAKVLCQLDEEEVLHSPRLTNSAMRAGHLLDLLKTRGKNGAIAFLESLKFHNPDVYTL
+                     VTGLQPDVDFSNFSGLMETSKLTECLAGAIGSLQEELNQEKGQKEVLLRRCQQLQEHL
+                     GLAETRAEGLHQLEADHSRMKREVSAHFHEVLRLKDEMLSLSLHYSNALQEKELAASR
+                     CRSLQEELYLLKQELQRANMVSSCELELQEQSLRTASDQESGDEELNRLKEENEKLRS
+                     LTFSLAEKDILEQSLDEARGSRQELVERIHSLRERAVAAERQREQYWEEKEQTLLQFQ
+                     KSKMACQLYREKVNALQAQVCELQKERDQAYSARDSAQREISQSLVEKDSLRRQVFEL
+                     TDQVCELRTQLRQLQAEPPGVLKQEARTREPCPREKQRLVRMHAICPRDDSDCSLVSS
+                     TESQLLSDLSATSSRELVDSFRSSSPAPPSQQSLYKRVAEDFGEEPWSFSSCLEIPEG
+                     DPGALPGAKAGDPHLDYELLDTADLPQLESSLQPVSPGRLDVSESGVLMRRRPARRIL
+                     SQVTMLAFQGDALLEQISVIGGNLTGIFIHRVTPGSAADQMALRPGTQIVMVDYEASE
+                     PLFKAVLEDTTLEEAVGLLRRVDGFCCLSVKVNTDGYKRLLQDLEAKVATSGDSFYIR
+                     VNLAMEGRAKGELQVHCNEVLHVTDTMFQGCGCWHAHRVNSYTMKDTAAHGTIPNYSR
+                     "
+     misc_feature    1393..1872
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q9BXL6.2);
+                     Region: Maintains the protein in an inactive state.
+                     /evidence=ECO:0000269|PubMed:27071417"
+     misc_feature    1798..1800
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18220336; propagated from
+                     UniProtKB/Swiss-Prot (Q9BXL6.2); phosphorylation site"
+     exon            380..517
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            518..843
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            844..1011
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1012..1131
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1132..1257
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1258..1407
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1408..1524
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1525..1667
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1668..1762
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1763..1826
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1827..2019
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2020..2146
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2147..2598
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     regulatory      2578..2583
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /note="hexamer: AATGAA"
+     polyA_site      2598
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /note="major polyA site"
+ORIGIN      
+        1 gctcttcctt ctgcccagct ccgtcccacc cagcagcccg cagagaaagg aggcagctgg
+       61 caccacactg ggctttggag acactgcggg gactgtggac cccaccctgc tgcacggagc
+      121 tcctgcaaaa gcaaacctga gaaccttggg tcctcccagc gcccagccat gggggaactg
+      181 tgccgcaggg actccgcact cacggcactg gacgaggaga cactgtggga gatgatggag
+      241 agccaccgcc acaggatcgt acgctgcatc tgccccagcc gcctcacccc ctacctgcgc
+      301 caggccaagg tgctgtgcca gctggacgag gaggaggtgc tgcacagccc ccggctcacc
+      361 aacagcgcca tgcgggccgg gcacttgctg gatttgctga agactcgagg gaagaacggg
+      421 gccatcgcct tcctggagag cctgaagttc cacaaccctg acgtctacac cctggtcacc
+      481 gggctgcagc ctgatgttga cttcagtaac tttagcggtc tcatggagac atccaagctg
+      541 accgagtgcc tggctggggc catcggcagc ctgcaggagg agctgaacca ggaaaagggg
+      601 cagaaggagg tgctgctgcg gcggtgccag cagctgcagg agcacctggg cctggccgag
+      661 acccgtgccg agggcctgca ccagctggag gctgaccaca gccgcatgaa gcgtgaggtt
+      721 agcgcacact tccatgaggt gctgaggctg aaggacgaga tgctcagcct ctcgctgcac
+      781 tatagcaatg cgctgcagga gaaggagctg gccgcctcac gctgccgcag cctgcaggag
+      841 gagctgtatc tactgaagca ggagctgcag cgagccaaca tggtttcctc ctgtgagctg
+      901 gaattgcaag agcagtccct gaggacagcc agcgaccagg agtccgggga tgaggagctg
+      961 aaccgcctga aggaggagaa tgagaaactg cgctcgctga ctttcagcct ggcggagaag
+     1021 gacattctgg agcagagcct ggacgaggcg cgggggagcc gacaggagct ggtggagcgc
+     1081 atccactcgc tgcgggagcg ggccgtggct gccgagaggc agcgagagca gtactgggaa
+     1141 gagaaggaac agaccctgct gcagttccag aagagtaaga tggcctgcca actctacagg
+     1201 gagaaggtga atgcgctgca ggcccaggtg tgcgagctgc agaaggagcg agaccaggcg
+     1261 tactccgcga gggacagtgc tcagagggag atttcccaga gcctggtgga gaaggactcc
+     1321 ctccgcaggc aggtgttcga gctgacggac caggtctgcg agctgcgcac acagcttcgc
+     1381 cagctgcagg cagagcctcc gggtgtgctc aagcaggaag ccaggaccag ggagccctgt
+     1441 ccacgggaga agcagcggct ggtgcggatg catgccatct gccccagaga cgacagcgac
+     1501 tgcagcctcg tcagctccac agagtctcag ctcttgtcgg acctgagtgc cacgtccagc
+     1561 cgcgagctgg tggacagctt ccgctccagc agccccgcgc cccccagcca gcagtccctg
+     1621 tacaagcggg tggccgagga cttcggggaa gaaccctggt ctttcagcag ctgcctggag
+     1681 atcccggagg gagacccggg agccctgccg ggagctaagg caggcgaccc acacctggat
+     1741 tatgagctcc tagacacggc agaccttccg cagctggaaa gcagcctgca gccagtctcc
+     1801 cctggaaggc ttgatgtctc ggagagcggc gtcctcatgc ggcggaggcc agcccgcagg
+     1861 atcctgagcc aggtcaccat gctggcgttc cagggggatg cattgctgga gcagatcagc
+     1921 gtcatcggcg ggaacctcac gggcatcttc atccaccggg tcaccccggg ctcggcggcg
+     1981 gaccagatgg ccttgcgccc gggcacccag attgtgatgg ttgattacga agcctcagag
+     2041 cccttgttca aggcagtcct ggaggacacg accctggagg aggccgtggg gcttctcagg
+     2101 agggtggacg gcttctgctg cctgtctgtg aaggtcaaca cggacggtta taagaggcta
+     2161 ctccaggacc tggaggccaa agtggcgacc tcgggggact cattctacat ccgggtcaac
+     2221 ctggccatgg agggcagggc caaaggggag ctgcaggtgc attgcaacga ggtcctgcac
+     2281 gtcaccgaca ccatgttcca gggctgcggc tgctggcatg cccaccgcgt gaactcttac
+     2341 accatgaagg atactgccgc gcacggcacc atccccaact actccaggtg agcagctgcc
+     2401 tcgagctcgg tgcgtcccca gagaggccca cagggaaatg gcacccagcc tgcctcggct
+     2461 tcctcctcct gcccagcaat agagggtggg cgtggtgaga cccccctaag gagggaagcc
+     2521 tgccaagatc actgctgaag atgttgtttc tttgtgatgg atgctttata tattgcaaat
+     2581 gaaatgttca ttctagaaaa aaaaaaaaaa aa
+//
+
+LOCUS       NM_001366385            4717 bp    mRNA    linear   PRI 09-FEB-2024
+DEFINITION  Homo sapiens caspase recruitment domain family member 14 (CARD14),
+            transcript variant 5, mRNA.
+ACCESSION   NM_001366385
+VERSION     NM_001366385.1
+KEYWORDS    RefSeq; MANE Select.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 4717)
+  AUTHORS   Li,N., Tao,J., Zhang,J., Liu,Z. and Yu,P.
+  TITLE     A novel mutation in a CARD14-associated papulosquamous eruption
+  JOURNAL   Pediatr Dermatol 40 (4), 706-709 (2023)
+   PUBMED   36724903
+  REMARK    GeneRIF: A novel mutation in a CARD14-associated papulosquamous
+            eruption.
+REFERENCE   2  (bases 1 to 4717)
+  AUTHORS   Trai,N.N., Van Em,D., Van,B.T., My,L.H., Van Tro,C., Hao,N.T.,
+            Vu,H.A., Tram,D.B., Van Thuong,N. and Doanh,L.H.
+  TITLE     Correlation of IL36RN and CARD14 mutations with clinical
+            manifestations and laboratory findings in patients with generalised
+            pustular psoriasis
+  JOURNAL   Indian J Dermatol Venereol Leprol 89 (3), 378-384 (2023)
+   PUBMED   36331855
+  REMARK    GeneRIF: Correlation of IL36RN and CARD14 mutations with clinical
+            manifestations and laboratory findings in patients with generalised
+            pustular psoriasis.
+REFERENCE   3  (bases 1 to 4717)
+  AUTHORS   Niaouris,A., Hernandez-Cordero,A., Haddad,S., Hassi,N.K.,
+            Benzian-Olsson,N., Bugarin Diz,C., Burden,A.D., Cooper,H.L.,
+            Griffiths,C.E.M., Parslew,R., Pink,A.E., Reynolds,N.J., Wahie,S.,
+            Warren,R.B., Wright,A., Simpson,M., Baum,P., Visvanathan,S.,
+            Barker,J.N., Smith,C.H. and Capon,F.
+  CONSRTM   APRICOT and PLUM study team
+  TITLE     Damaging Alleles Affecting Multiple CARD14 Domains Are Associated
+            with Palmoplantar Pustulosis
+  JOURNAL   J Invest Dermatol 143 (3), 504-508 (2023)
+   PUBMED   36174714
+  REMARK    GeneRIF: Damaging Alleles Affecting Multiple CARD14 Domains Are
+            Associated with Palmoplantar Pustulosis.
+REFERENCE   4  (bases 1 to 4717)
+  AUTHORS   Msafiri Makene,A. and Liu,J.L.
+  TITLE     Association between CARD14 gene polymorphisms and psoriasis
+            vulgaris in Hainan Han population based on exon sequencing: A
+            case-control study
+  JOURNAL   Medicine (Baltimore) 101 (40), e30890 (2022)
+   PUBMED   36221432
+  REMARK    GeneRIF: Association between CARD14 gene polymorphisms and
+            psoriasis vulgaris in Hainan Han population based on exon
+            sequencing: A case-control study.
+REFERENCE   5  (bases 1 to 4717)
+  AUTHORS   Suleman,S., Chhabra,G., Raza,R., Hamid,A., Qureshi,J.A. and
+            Ahmad,N.
+  TITLE     Association of CARD14 Single-Nucleotide Polymorphisms with
+            Psoriasis
+  JOURNAL   Int J Mol Sci 23 (16), 9336 (2022)
+   PUBMED   36012602
+  REMARK    GeneRIF: Association of CARD14 Single-Nucleotide Polymorphisms with
+            Psoriasis.
+            Publication Status: Online-Only
+REFERENCE   6  (bases 1 to 4717)
+  AUTHORS   Speckman,R.A., Wright Daw,J.A., Helms,C., Duan,S., Cao,L.,
+            Taillon-Miller,P., Kwok,P.Y., Menter,A. and Bowcock,A.M.
+  TITLE     Novel immunoglobulin superfamily gene cluster, mapping to a region
+            of human chromosome 17q25, linked to psoriasis susceptibility
+  JOURNAL   Hum Genet 112 (1), 34-41 (2003)
+   PUBMED   12483297
+  REMARK    GeneRIF: Chromosome 17q25 harbors a susceptibility locus for
+            psoriasis. Non-parametric linkage analysis revealed a linkage peak
+            lying close to a novel cluster of genes from the immunoglobulin
+            (Ig) superfamily.
+REFERENCE   7  (bases 1 to 4717)
+  AUTHORS   Wang,L., Guo,Y., Huang,W.J., Ke,X., Poyet,J.L., Manji,G.A.,
+            Merriam,S., Glucksmann,M.A., DiStefano,P.S., Alnemri,E.S. and
+            Bertin,J.
+  TITLE     Card10 is a novel caspase recruitment domain/membrane-associated
+            guanylate kinase family member that interacts with BCL10 and
+            activates NF-kappa B
+  JOURNAL   J Biol Chem 276 (24), 21405-21409 (2001)
+   PUBMED   11259443
+REFERENCE   8  (bases 1 to 4717)
+  AUTHORS   Gaide,O., Martinon,F., Micheau,O., Bonnet,D., Thome,M. and
+            Tschopp,J.
+  TITLE     Carma1, a CARD-containing binding partner of Bcl10, induces Bcl10
+            phosphorylation and NF-kappaB activation
+  JOURNAL   FEBS Lett 496 (2-3), 121-127 (2001)
+   PUBMED   11356195
+REFERENCE   9  (bases 1 to 4717)
+  AUTHORS   Bertin,J., Wang,L., Guo,Y., Jacobson,M.D., Poyet,J.L.,
+            Srinivasula,S.M., Merriam,S., DiStefano,P.S. and Alnemri,E.S.
+  TITLE     CARD11 and CARD14 are novel caspase recruitment domain
+            (CARD)/membrane-associated guanylate kinase (MAGUK) family members
+            that interact with BCL10 and activate NF-kappa B
+  JOURNAL   J Biol Chem 276 (15), 11877-11882 (2001)
+   PUBMED   11278692
+REFERENCE   10 (bases 1 to 4717)
+  AUTHORS   Tomfohrde,J., Silverman,A., Barnes,R., Fernandez-Vina,M.A.,
+            Young,M., Lory,D., Morris,L., Wuepper,K.D., Stastny,P., Menter,A.
+            et al.
+  TITLE     Gene for familial psoriasis susceptibility mapped to the distal end
+            of human chromosome 17q
+  JOURNAL   Science 264 (5162), 1141-1145 (1994)
+   PUBMED   8178173
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AC087741.18.
+            This sequence is a reference standard in the RefSeqGene project.
+            
+            Summary: This gene encodes a caspase recruitment domain-containing
+            protein that is a member of the membrane-associated guanylate
+            kinase (MAGUK) family of proteins. Members of this protein family
+            are scaffold proteins that are involved in a diverse array of
+            cellular processes including cellular adhesion, signal transduction
+            and cell polarity control. This protein has been shown to
+            specifically interact with BCL10, a protein known to function as a
+            positive regulator of cell apoptosis and NF-kappaB activation.
+            Alternate splicing results in multiple transcript variants.
+            [provided by RefSeq, Apr 2012].
+            
+            Sequence Note: The RefSeq transcript and protein were derived from
+            genomic sequence to make the sequence consistent with the reference
+            genome assembly. The genomic coordinates used for the transcript
+            record were based on alignments.
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            CDS exon combination :: AY032927.1 [ECO:0000331]
+            ##Evidence-Data-END##
+            
+            ##RefSeq-Attributes-START##
+            inferred exon combination :: based on alignments, homology
+            MANE Ensembl match        :: ENST00000648509.2/ ENSP00000498071.1
+            RefSeq Select criteria    :: based on manual assertion,
+                                         conservation, expression, longest
+                                         protein
+            ##RefSeq-Attributes-END##
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-27                AC087741.18        40117-40143         c
+            28-350              AC087741.18        36945-37267         c
+            351-498             AC087741.18        31518-31665         c
+            499-696             AC087741.18        30872-31069         c
+            697-927             AC087741.18        28524-28754         c
+            928-1065            AC087741.18        27383-27520         c
+            1066-1391           AC087741.18        25935-26260         c
+            1392-1559           AC087741.18        21629-21796         c
+            1560-1679           AC087741.18        20301-20420         c
+            1680-1805           AC087741.18        19274-19399         c
+            1806-1955           AC087741.18        18701-18850         c
+            1956-2072           AC087741.18        17554-17670         c
+            2073-2215           AC087741.18        14840-14982         c
+            2216-2310           AC087741.18        14521-14615         c
+            2311-2374           AC087741.18        12011-12074         c
+            2375-2567           AC087741.18        11582-11774         c
+            2568-2694           AC087741.18        8303-8429           c
+            2695-2935           AC087741.18        7753-7993           c
+            2936-2999           AC087741.18        6288-6351           c
+            3000-3114           AC087741.18        5832-5946           c
+            3115-3285           AC087741.18        4968-5138           c
+            3286-3407           AC087741.18        4521-4642           c
+            3408-3523           AC087741.18        3088-3203           c
+            3524-4717           AC087741.18        842-2035            c
+FEATURES             Location/Qualifiers
+     source          1..4717
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="17"
+                     /map="17q25.3"
+     gene            1..4717
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /note="caspase recruitment domain family member 14"
+                     /db_xref="GeneID:79092"
+                     /db_xref="HGNC:HGNC:16446"
+                     /db_xref="MIM:607211"
+     exon            1..27
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            28..350
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            351..498
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            499..696
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     misc_feature    666..668
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /note="upstream in-frame stop codon"
+     exon            697..927
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     CDS             717..3731
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /note="isoform 1 is encoded by transcript variant 5;
+                     bcl10-interacting maguk protein 2; caspase recruitment
+                     domain-containing protein 14; CARD-containing MAGUK
+                     protein 2"
+                     /codon_start=1
+                     /product="caspase recruitment domain-containing protein 14
+                     isoform 1"
+                     /protein_id="NP_001353314.1"
+                     /db_xref="CCDS:CCDS11768.1"
+                     /db_xref="GeneID:79092"
+                     /db_xref="HGNC:HGNC:16446"
+                     /db_xref="MIM:607211"
+                     /translation="MGELCRRDSALTALDEETLWEMMESHRHRIVRCICPSRLTPYLR
+                     QAKVLCQLDEEEVLHSPRLTNSAMRAGHLLDLLKTRGKNGAIAFLESLKFHNPDVYTL
+                     VTGLQPDVDFSNFSGLMETSKLTECLAGAIGSLQEELNQEKGQKEVLLRRCQQLQEHL
+                     GLAETRAEGLHQLEADHSRMKREVSAHFHEVLRLKDEMLSLSLHYSNALQEKELAASR
+                     CRSLQEELYLLKQELQRANMVSSCELELQEQSLRTASDQESGDEELNRLKEENEKLRS
+                     LTFSLAEKDILEQSLDEARGSRQELVERIHSLRERAVAAERQREQYWEEKEQTLLQFQ
+                     KSKMACQLYREKVNALQAQVCELQKERDQAYSARDSAQREISQSLVEKDSLRRQVFEL
+                     TDQVCELRTQLRQLQAEPPGVLKQEARTREPCPREKQRLVRMHAICPRDDSDCSLVSS
+                     TESQLLSDLSATSSRELVDSFRSSSPAPPSQQSLYKRVAEDFGEEPWSFSSCLEIPEG
+                     DPGALPGAKAGDPHLDYELLDTADLPQLESSLQPVSPGRLDVSESGVLMRRRPARRIL
+                     SQVTMLAFQGDALLEQISVIGGNLTGIFIHRVTPGSAADQMALRPGTQIVMVDYEASE
+                     PLFKAVLEDTTLEEAVGLLRRVDGFCCLSVKVNTDGYKRLLQDLEAKVATSGDSFYIR
+                     VNLAMEGRAKGELQVHCNEVLHVTDTMFQGCGCWHAHRVNSYTMKDTAAHGTIPNYSR
+                     AQQQLIALIQDMTQQCTVTRKPSSGGPQKLVRIVSMDKAKASPLRLSFDRGQLDPSRM
+                     EGSSTCFWAESCLTLVPYTLVRPHRPARPRPVLLVPRAVGKILSEKLCLLQGFKKCLA
+                     EYLSQEEYEAWSQRGDIIQEGEVSGGRCWVTRHAVESLMEKNTHALLDVQLDSVCTLH
+                     RMDIFPIVIHVSVNEKMAKKLKKGLQRLGTSEEQLLEAARQEEGDLDRAPCLYSSLAP
+                     DGWSDLDGLLSCVRQAIADEQKKVVWTEQSPR"
+     misc_feature    1941..2420
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q9BXL6.2);
+                     Region: Maintains the protein in an inactive state.
+                     /evidence=ECO:0000269|PubMed:27071417"
+     misc_feature    2346..2348
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18220336; propagated from
+                     UniProtKB/Swiss-Prot (Q9BXL6.2); phosphorylation site"
+     exon            928..1065
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1066..1391
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1392..1559
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1560..1679
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1680..1805
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1806..1955
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1956..2072
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2073..2215
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2216..2310
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2311..2374
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2375..2567
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2568..2694
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2695..2935
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2936..2999
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3000..3114
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3115..3285
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3286..3407
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3408..3523
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3524..4717
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     regulatory      4329..4334
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /note="hexamer: AATAAA"
+     polyA_site      4350
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /note="major polyA site"
+     regulatory      4698..4703
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /note="hexamer: AATAAA"
+     polyA_site      4717
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /note="major polyA site"
+ORIGIN      
+        1 agtcctcgct tccctgggag ggggaagagt ttcactctgg ctcctaggct ggaatgcagt
+       61 ggcaccatct cagctctctg caacctccac ttcccaggtt caagcgattc tcctgcctca
+      121 ccctcctgag tagctgggac tacaggcgag caccaccaca gccggctaat ttttctattt
+      181 ctagtagaaa tggggtttca ccatgttggc aggctggtct cgaactctga cctcaagtga
+      241 tctgcctgcc tcagcctctg aaagtgctgg attgcaggcg tgagccaccg caccaggcct
+      301 aaacagattt ctttacaatc taccaccatg aacagcaagc attagcattg gctcttcctt
+      361 ctgcccagct ccgtcccacc cagcagcccg cagagaaagg aggcagctgg caccacactg
+      421 ggctttggag acactgcggg gactgtggac cccaccctgc tgcacggagc tcctgcaaaa
+      481 gcaaacctga gaaccttgca tacagatccc tgcaagaggc atctgtctcc agtggtccag
+      541 cctctccttc caaatgaaaa gaatcaagtc acaggaattc atgggtctgt aaggaatcgc
+      601 tcccatctgt gcccaggaga ttaacaaagg cggtggctgc agctctgtga gcagtggaga
+      661 aaaattaggc acaacctgat atcctcccac aggagcggtc ctcccagcgc ccagccatgg
+      721 gggaactgtg ccgcagggac tccgcactca cggcactgga cgaggagaca ctgtgggaga
+      781 tgatggagag ccaccgccac aggatcgtac gctgcatctg ccccagccgc ctcaccccct
+      841 acctgcgcca ggccaaggtg ctgtgccagc tggacgagga ggaggtgctg cacagccccc
+      901 ggctcaccaa cagcgccatg cgggccgggc acttgctgga tttgctgaag actcgaggga
+      961 agaacggggc catcgccttc ctggagagcc tgaagttcca caaccctgac gtctacaccc
+     1021 tggtcaccgg gctgcagcct gatgttgact tcagtaactt tagcggtctc atggagacat
+     1081 ccaagctgac cgagtgcctg gctggggcca tcggcagcct gcaggaggag ctgaaccagg
+     1141 aaaaggggca gaaggaggtg ctgctgcggc ggtgccagca gctgcaggag cacctgggcc
+     1201 tggccgagac ccgtgccgag ggcctgcacc agctggaggc tgaccacagc cgcatgaagc
+     1261 gtgaggttag cgcacacttc catgaggtgc tgaggctgaa ggacgagatg ctcagcctct
+     1321 cgctgcacta tagcaatgcg ctgcaggaga aggagctggc cgcctcacgc tgccgcagcc
+     1381 tgcaggagga gctgtatcta ctgaagcagg agctgcagcg agccaacatg gtttcctcct
+     1441 gtgagctgga attgcaagag cagtccctga ggacagccag cgaccaggag tccggggatg
+     1501 aggagctgaa ccgcctgaag gaggagaatg agaaactgcg ctcgctgact ttcagcctgg
+     1561 cggagaagga cattctggag cagagcctgg acgaggcgcg ggggagccga caggagctgg
+     1621 tggagcgcat ccactcgctg cgggagcggg ccgtggctgc cgagaggcag cgagagcagt
+     1681 actgggaaga gaaggaacag accctgctgc agttccagaa gagtaagatg gcctgccaac
+     1741 tctacaggga gaaggtgaat gcgctgcagg cccaggtgtg cgagctgcag aaggagcgag
+     1801 accaggcgta ctccgcgagg gacagtgctc agagggagat ttcccagagc ctggtggaga
+     1861 aggactccct ccgcaggcag gtgttcgagc tgacggacca ggtctgcgag ctgcgcacac
+     1921 agcttcgcca gctgcaggca gagcctccgg gtgtgctcaa gcaggaagcc aggaccaggg
+     1981 agccctgtcc acgggagaag cagcggctgg tgcggatgca tgccatctgc cccagagacg
+     2041 acagcgactg cagcctcgtc agctccacag agtctcagct cttgtcggac ctgagtgcca
+     2101 cgtccagccg cgagctggtg gacagcttcc gctccagcag ccccgcgccc cccagccagc
+     2161 agtccctgta caagcgggtg gccgaggact tcggggaaga accctggtct ttcagcagct
+     2221 gcctggagat cccggaggga gacccgggag ccctgccggg agctaaggca ggcgacccac
+     2281 acctggatta tgagctccta gacacggcag accttccgca gctggaaagc agcctgcagc
+     2341 cagtctcccc tggaaggctt gatgtctcgg agagcggcgt cctcatgcgg cggaggccag
+     2401 cccgcaggat cctgagccag gtcaccatgc tggcgttcca gggggatgca ttgctggagc
+     2461 agatcagcgt catcggcggg aacctcacgg gcatcttcat ccaccgggtc accccgggct
+     2521 cggcggcgga ccagatggcc ttgcgcccgg gcacccagat tgtgatggtt gattacgaag
+     2581 cctcagagcc cttgttcaag gcagtcctgg aggacacgac cctggaggag gccgtggggc
+     2641 ttctcaggag ggtggacggc ttctgctgcc tgtctgtgaa ggtcaacacg gacggttata
+     2701 agaggctact ccaggacctg gaggccaaag tggcgacctc gggggactca ttctacatcc
+     2761 gggtcaacct ggccatggag ggcagggcca aaggggagct gcaggtgcat tgcaacgagg
+     2821 tcctgcacgt caccgacacc atgttccagg gctgcggctg ctggcatgcc caccgcgtga
+     2881 actcttacac catgaaggat actgccgcgc acggcaccat ccccaactac tccagggctc
+     2941 agcagcagct catagccctc atccaggaca tgactcagca gtgcaccgtg acccgcaagc
+     3001 catcttctgg gggaccacag aagctggtcc gcatcgtcag tatggacaaa gccaaggcca
+     3061 gccctctgcg tttgtccttt gacaggggcc agttggaccc cagcaggatg gagggctcca
+     3121 gcacgtgctt ctgggccgag agctgcctca ccctggtgcc ctataccctg gtgcggcccc
+     3181 atcgacccgc ccggccccgg cctgtgctcc tcgtgcccag ggcggttggg aagatcctga
+     3241 gcgagaaact gtgcctcctc caagggttta agaagtgcct ggcagagtac ttgagccagg
+     3301 aggagtatga ggcctggagc cagagagggg acatcatcca ggagggagag gtgtccgggg
+     3361 gccgctgctg ggtgacccgc catgctgtgg agtccctcat ggaaaagaac acccatgccc
+     3421 tcctggacgt ccagctggac agtgtctgca ccctgcacag gatggacatc ttccccatcg
+     3481 tcatccacgt ctctgtcaac gagaagatgg caaagaagct caagaagggc ctacagcggt
+     3541 tgggcacctc agaggagcag ctcctggagg ctgcgaggca ggaggaggga gacctggacc
+     3601 gggcgccctg tctatacagc agcctggctc ctgacggctg gagcgacctg gacggcctgc
+     3661 tcagctgtgt ccgccaggcc atcgccgacg agcagaagaa ggtggtgtgg acggagcaga
+     3721 gcccccgatg atgcaccgtg ccccttcccg ggactgtggg ggcttctgtg tgcctgttaa
+     3781 tgcagtcctg ttcctcagcc caggccctct tggcacagct gtgggctcct tggcacatga
+     3841 ggccggctct ccccactggc tggggtctaa ccttgaaccc tcaccacgtg caggtcacac
+     3901 acagtgaagc cacttgtaac tgcacacttt tctgtggaaa catcttcacc ctttaccagg
+     3961 cttggcatgg tctgaactgg aaaccctgag aatgtttctg cagtgggaca ggagggacgt
+     4021 cttcccatgc cttccctaga accggaggcc ccggacttct ctggaaaacc gcctgtctgc
+     4081 aggcccgatt caaatctatg ggggctgcac ttccctttta cattttgatg tgtcaaaggc
+     4141 ttttggagtg accaaaagca cagaggcagc gggtggggcg cctgggtggt ccccaaggtc
+     4201 gctgccaccc ttgcccgggg cagaggcaga agcccacata tgctgtgacg ctggccacct
+     4261 tttctcagct tctgaggctg cgatgcctca ggaactccag tttacagaga ccagtgtgtt
+     4321 tacttgtaaa taaagcctct gcgtggtgga gacggtactt tcagtgggtc tgtgccccgt
+     4381 ggcccctgtg cctgttcggt gggggtgtcc cagagaagcc tggcaccagt acccccgtac
+     4441 aaggcccagc ggactctgcc ttcccctgac ctggctttgc accccagccc ttcttgggcc
+     4501 aaacatcttt actccacctt cagggctcgg ggaggaccca ggtccgccag cacctggcct
+     4561 tgcccctgcc tcctggggct gttgcagact gaatgtcatt ttgacagcag tgtccaagaa
+     4621 tcaggaagct gttctagaat tcaggttggt atcatcataa atgagttcag aaaaagaact
+     4681 tctgtatatt ttactaaaat aaaaagcttt tacaata
+//
+
+LOCUS       NM_024110               4186 bp    mRNA    linear   PRI 07-FEB-2024
+DEFINITION  Homo sapiens caspase recruitment domain family member 14 (CARD14),
+            transcript variant 1, mRNA.
+ACCESSION   NM_024110
+VERSION     NM_024110.4
+KEYWORDS    RefSeq.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 4186)
+  AUTHORS   Li,N., Tao,J., Zhang,J., Liu,Z. and Yu,P.
+  TITLE     A novel mutation in a CARD14-associated papulosquamous eruption
+  JOURNAL   Pediatr Dermatol 40 (4), 706-709 (2023)
+   PUBMED   36724903
+  REMARK    GeneRIF: A novel mutation in a CARD14-associated papulosquamous
+            eruption.
+REFERENCE   2  (bases 1 to 4186)
+  AUTHORS   Trai,N.N., Van Em,D., Van,B.T., My,L.H., Van Tro,C., Hao,N.T.,
+            Vu,H.A., Tram,D.B., Van Thuong,N. and Doanh,L.H.
+  TITLE     Correlation of IL36RN and CARD14 mutations with clinical
+            manifestations and laboratory findings in patients with generalised
+            pustular psoriasis
+  JOURNAL   Indian J Dermatol Venereol Leprol 89 (3), 378-384 (2023)
+   PUBMED   36331855
+  REMARK    GeneRIF: Correlation of IL36RN and CARD14 mutations with clinical
+            manifestations and laboratory findings in patients with generalised
+            pustular psoriasis.
+REFERENCE   3  (bases 1 to 4186)
+  AUTHORS   Niaouris,A., Hernandez-Cordero,A., Haddad,S., Hassi,N.K.,
+            Benzian-Olsson,N., Bugarin Diz,C., Burden,A.D., Cooper,H.L.,
+            Griffiths,C.E.M., Parslew,R., Pink,A.E., Reynolds,N.J., Wahie,S.,
+            Warren,R.B., Wright,A., Simpson,M., Baum,P., Visvanathan,S.,
+            Barker,J.N., Smith,C.H. and Capon,F.
+  CONSRTM   APRICOT and PLUM study team
+  TITLE     Damaging Alleles Affecting Multiple CARD14 Domains Are Associated
+            with Palmoplantar Pustulosis
+  JOURNAL   J Invest Dermatol 143 (3), 504-508 (2023)
+   PUBMED   36174714
+  REMARK    GeneRIF: Damaging Alleles Affecting Multiple CARD14 Domains Are
+            Associated with Palmoplantar Pustulosis.
+REFERENCE   4  (bases 1 to 4186)
+  AUTHORS   Msafiri Makene,A. and Liu,J.L.
+  TITLE     Association between CARD14 gene polymorphisms and psoriasis
+            vulgaris in Hainan Han population based on exon sequencing: A
+            case-control study
+  JOURNAL   Medicine (Baltimore) 101 (40), e30890 (2022)
+   PUBMED   36221432
+  REMARK    GeneRIF: Association between CARD14 gene polymorphisms and
+            psoriasis vulgaris in Hainan Han population based on exon
+            sequencing: A case-control study.
+REFERENCE   5  (bases 1 to 4186)
+  AUTHORS   Suleman,S., Chhabra,G., Raza,R., Hamid,A., Qureshi,J.A. and
+            Ahmad,N.
+  TITLE     Association of CARD14 Single-Nucleotide Polymorphisms with
+            Psoriasis
+  JOURNAL   Int J Mol Sci 23 (16), 9336 (2022)
+   PUBMED   36012602
+  REMARK    GeneRIF: Association of CARD14 Single-Nucleotide Polymorphisms with
+            Psoriasis.
+            Publication Status: Online-Only
+REFERENCE   6  (bases 1 to 4186)
+  AUTHORS   Speckman,R.A., Wright Daw,J.A., Helms,C., Duan,S., Cao,L.,
+            Taillon-Miller,P., Kwok,P.Y., Menter,A. and Bowcock,A.M.
+  TITLE     Novel immunoglobulin superfamily gene cluster, mapping to a region
+            of human chromosome 17q25, linked to psoriasis susceptibility
+  JOURNAL   Hum Genet 112 (1), 34-41 (2003)
+   PUBMED   12483297
+  REMARK    GeneRIF: Chromosome 17q25 harbors a susceptibility locus for
+            psoriasis. Non-parametric linkage analysis revealed a linkage peak
+            lying close to a novel cluster of genes from the immunoglobulin
+            (Ig) superfamily.
+REFERENCE   7  (bases 1 to 4186)
+  AUTHORS   Wang,L., Guo,Y., Huang,W.J., Ke,X., Poyet,J.L., Manji,G.A.,
+            Merriam,S., Glucksmann,M.A., DiStefano,P.S., Alnemri,E.S. and
+            Bertin,J.
+  TITLE     Card10 is a novel caspase recruitment domain/membrane-associated
+            guanylate kinase family member that interacts with BCL10 and
+            activates NF-kappa B
+  JOURNAL   J Biol Chem 276 (24), 21405-21409 (2001)
+   PUBMED   11259443
+REFERENCE   8  (bases 1 to 4186)
+  AUTHORS   Gaide,O., Martinon,F., Micheau,O., Bonnet,D., Thome,M. and
+            Tschopp,J.
+  TITLE     Carma1, a CARD-containing binding partner of Bcl10, induces Bcl10
+            phosphorylation and NF-kappaB activation
+  JOURNAL   FEBS Lett 496 (2-3), 121-127 (2001)
+   PUBMED   11356195
+REFERENCE   9  (bases 1 to 4186)
+  AUTHORS   Bertin,J., Wang,L., Guo,Y., Jacobson,M.D., Poyet,J.L.,
+            Srinivasula,S.M., Merriam,S., DiStefano,P.S. and Alnemri,E.S.
+  TITLE     CARD11 and CARD14 are novel caspase recruitment domain
+            (CARD)/membrane-associated guanylate kinase (MAGUK) family members
+            that interact with BCL10 and activate NF-kappa B
+  JOURNAL   J Biol Chem 276 (15), 11877-11882 (2001)
+   PUBMED   11278692
+REFERENCE   10 (bases 1 to 4186)
+  AUTHORS   Tomfohrde,J., Silverman,A., Barnes,R., Fernandez-Vina,M.A.,
+            Young,M., Lory,D., Morris,L., Wuepper,K.D., Stastny,P., Menter,A.
+            et al.
+  TITLE     Gene for familial psoriasis susceptibility mapped to the distal end
+            of human chromosome 17q
+  JOURNAL   Science 264 (5162), 1141-1145 (1994)
+   PUBMED   8178173
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AF322642.1, AC087741.18 and
+            BU617627.1.
+            
+            On Apr 13, 2012 this sequence version replaced NM_024110.3.
+            
+            Summary: This gene encodes a caspase recruitment domain-containing
+            protein that is a member of the membrane-associated guanylate
+            kinase (MAGUK) family of proteins. Members of this protein family
+            are scaffold proteins that are involved in a diverse array of
+            cellular processes including cellular adhesion, signal transduction
+            and cell polarity control. This protein has been shown to
+            specifically interact with BCL10, a protein known to function as a
+            positive regulator of cell apoptosis and NF-kappaB activation.
+            Alternate splicing results in multiple transcript variants.
+            [provided by RefSeq, Apr 2012].
+            
+            Transcript Variant: This variant (1) encodes the longest isoform
+            (1). Variants 1 and 5 encode the same isoform.
+            
+            Sequence Note: This RefSeq record was created from transcript and
+            genomic sequence data to make the sequence consistent with the
+            reference genome assembly. The genomic coordinates used for the
+            transcript record were based on transcript alignments.
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: AF322642.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+                                           SAMEA2145893, SAMEA2147596
+                                           [ECO:0000348]
+            ##Evidence-Data-END##
+            COMPLETENESS: complete on the 3' end.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-2625              AF322642.1         39-2663
+            2626-2626           AC087741.18        5079-5079           c
+            2627-3456           AF322642.1         2665-3494
+            3457-3998           AC087741.18        1013-1554           c
+            3999-4186           BU617627.1         1-188               c
+FEATURES             Location/Qualifiers
+     source          1..4186
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="17"
+                     /map="17q25.3"
+     gene            1..4186
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /note="caspase recruitment domain family member 14"
+                     /db_xref="GeneID:79092"
+                     /db_xref="HGNC:HGNC:16446"
+                     /db_xref="MIM:607211"
+     exon            1..148
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            149..379
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     CDS             169..3183
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /note="isoform 1 is encoded by transcript variant 1;
+                     bcl10-interacting maguk protein 2; caspase recruitment
+                     domain-containing protein 14; CARD-containing MAGUK
+                     protein 2"
+                     /codon_start=1
+                     /product="caspase recruitment domain-containing protein 14
+                     isoform 1"
+                     /protein_id="NP_077015.2"
+                     /db_xref="CCDS:CCDS11768.1"
+                     /db_xref="GeneID:79092"
+                     /db_xref="HGNC:HGNC:16446"
+                     /db_xref="MIM:607211"
+                     /translation="MGELCRRDSALTALDEETLWEMMESHRHRIVRCICPSRLTPYLR
+                     QAKVLCQLDEEEVLHSPRLTNSAMRAGHLLDLLKTRGKNGAIAFLESLKFHNPDVYTL
+                     VTGLQPDVDFSNFSGLMETSKLTECLAGAIGSLQEELNQEKGQKEVLLRRCQQLQEHL
+                     GLAETRAEGLHQLEADHSRMKREVSAHFHEVLRLKDEMLSLSLHYSNALQEKELAASR
+                     CRSLQEELYLLKQELQRANMVSSCELELQEQSLRTASDQESGDEELNRLKEENEKLRS
+                     LTFSLAEKDILEQSLDEARGSRQELVERIHSLRERAVAAERQREQYWEEKEQTLLQFQ
+                     KSKMACQLYREKVNALQAQVCELQKERDQAYSARDSAQREISQSLVEKDSLRRQVFEL
+                     TDQVCELRTQLRQLQAEPPGVLKQEARTREPCPREKQRLVRMHAICPRDDSDCSLVSS
+                     TESQLLSDLSATSSRELVDSFRSSSPAPPSQQSLYKRVAEDFGEEPWSFSSCLEIPEG
+                     DPGALPGAKAGDPHLDYELLDTADLPQLESSLQPVSPGRLDVSESGVLMRRRPARRIL
+                     SQVTMLAFQGDALLEQISVIGGNLTGIFIHRVTPGSAADQMALRPGTQIVMVDYEASE
+                     PLFKAVLEDTTLEEAVGLLRRVDGFCCLSVKVNTDGYKRLLQDLEAKVATSGDSFYIR
+                     VNLAMEGRAKGELQVHCNEVLHVTDTMFQGCGCWHAHRVNSYTMKDTAAHGTIPNYSR
+                     AQQQLIALIQDMTQQCTVTRKPSSGGPQKLVRIVSMDKAKASPLRLSFDRGQLDPSRM
+                     EGSSTCFWAESCLTLVPYTLVRPHRPARPRPVLLVPRAVGKILSEKLCLLQGFKKCLA
+                     EYLSQEEYEAWSQRGDIIQEGEVSGGRCWVTRHAVESLMEKNTHALLDVQLDSVCTLH
+                     RMDIFPIVIHVSVNEKMAKKLKKGLQRLGTSEEQLLEAARQEEGDLDRAPCLYSSLAP
+                     DGWSDLDGLLSCVRQAIADEQKKVVWTEQSPR"
+     misc_feature    1393..1872
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q9BXL6.2);
+                     Region: Maintains the protein in an inactive state.
+                     /evidence=ECO:0000269|PubMed:27071417"
+     misc_feature    1798..1800
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18220336; propagated from
+                     UniProtKB/Swiss-Prot (Q9BXL6.2); phosphorylation site"
+     exon            380..517
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            518..843
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            844..1011
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1012..1131
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1132..1257
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1258..1407
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1408..1524
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1525..1667
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1668..1762
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1763..1826
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1827..2019
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2020..2146
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2147..2387
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2388..2451
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2452..2566
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2567..2737
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2738..2859
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2860..2975
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2976..4169
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     regulatory      3781..3786
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /note="hexamer: AATAAA"
+     polyA_site      3802
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /note="major polyA site"
+     regulatory      4150..4155
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /note="hexamer: AATAAA"
+     polyA_site      4169
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /note="major polyA site"
+ORIGIN      
+        1 gctcttcctt ctgcccagct ccgtcccacc cagcagcccg cagagaaagg aggcagctgg
+       61 caccacactg ggctttggag acactgcggg gactgtggac cccaccctgc tgcacggagc
+      121 tcctgcaaaa gcaaacctga gaaccttggg tcctcccagc gcccagccat gggggaactg
+      181 tgccgcaggg actccgcact cacggcactg gacgaggaga cactgtggga gatgatggag
+      241 agccaccgcc acaggatcgt acgctgcatc tgccccagcc gcctcacccc ctacctgcgc
+      301 caggccaagg tgctgtgcca gctggacgag gaggaggtgc tgcacagccc ccggctcacc
+      361 aacagcgcca tgcgggccgg gcacttgctg gatttgctga agactcgagg gaagaacggg
+      421 gccatcgcct tcctggagag cctgaagttc cacaaccctg acgtctacac cctggtcacc
+      481 gggctgcagc ctgatgttga cttcagtaac tttagcggtc tcatggagac atccaagctg
+      541 accgagtgcc tggctggggc catcggcagc ctgcaggagg agctgaacca ggaaaagggg
+      601 cagaaggagg tgctgctgcg gcggtgccag cagctgcagg agcacctggg cctggccgag
+      661 acccgtgccg agggcctgca ccagctggag gctgaccaca gccgcatgaa gcgtgaggtt
+      721 agcgcacact tccatgaggt gctgaggctg aaggacgaga tgctcagcct ctcgctgcac
+      781 tatagcaatg cgctgcagga gaaggagctg gccgcctcac gctgccgcag cctgcaggag
+      841 gagctgtatc tactgaagca ggagctgcag cgagccaaca tggtttcctc ctgtgagctg
+      901 gaattgcaag agcagtccct gaggacagcc agcgaccagg agtccgggga tgaggagctg
+      961 aaccgcctga aggaggagaa tgagaaactg cgctcgctga ctttcagcct ggcggagaag
+     1021 gacattctgg agcagagcct ggacgaggcg cgggggagcc gacaggagct ggtggagcgc
+     1081 atccactcgc tgcgggagcg ggccgtggct gccgagaggc agcgagagca gtactgggaa
+     1141 gagaaggaac agaccctgct gcagttccag aagagtaaga tggcctgcca actctacagg
+     1201 gagaaggtga atgcgctgca ggcccaggtg tgcgagctgc agaaggagcg agaccaggcg
+     1261 tactccgcga gggacagtgc tcagagggag atttcccaga gcctggtgga gaaggactcc
+     1321 ctccgcaggc aggtgttcga gctgacggac caggtctgcg agctgcgcac acagcttcgc
+     1381 cagctgcagg cagagcctcc gggtgtgctc aagcaggaag ccaggaccag ggagccctgt
+     1441 ccacgggaga agcagcggct ggtgcggatg catgccatct gccccagaga cgacagcgac
+     1501 tgcagcctcg tcagctccac agagtctcag ctcttgtcgg acctgagtgc cacgtccagc
+     1561 cgcgagctgg tggacagctt ccgctccagc agccccgcgc cccccagcca gcagtccctg
+     1621 tacaagcggg tggccgagga cttcggggaa gaaccctggt ctttcagcag ctgcctggag
+     1681 atcccggagg gagacccggg agccctgccg ggagctaagg caggcgaccc acacctggat
+     1741 tatgagctcc tagacacggc agaccttccg cagctggaaa gcagcctgca gccagtctcc
+     1801 cctggaaggc ttgatgtctc ggagagcggc gtcctcatgc ggcggaggcc agcccgcagg
+     1861 atcctgagcc aggtcaccat gctggcgttc cagggggatg cattgctgga gcagatcagc
+     1921 gtcatcggcg ggaacctcac gggcatcttc atccaccggg tcaccccggg ctcggcggcg
+     1981 gaccagatgg ccttgcgccc gggcacccag attgtgatgg ttgattacga agcctcagag
+     2041 cccttgttca aggcagtcct ggaggacacg accctggagg aggccgtggg gcttctcagg
+     2101 agggtggacg gcttctgctg cctgtctgtg aaggtcaaca cggacggtta taagaggcta
+     2161 ctccaggacc tggaggccaa agtggcgacc tcgggggact cattctacat ccgggtcaac
+     2221 ctggccatgg agggcagggc caaaggggag ctgcaggtgc attgcaacga ggtcctgcac
+     2281 gtcaccgaca ccatgttcca gggctgcggc tgctggcatg cccaccgcgt gaactcttac
+     2341 accatgaagg atactgccgc gcacggcacc atccccaact actccagggc tcagcagcag
+     2401 ctcatagccc tcatccagga catgactcag cagtgcaccg tgacccgcaa gccatcttct
+     2461 gggggaccac agaagctggt ccgcatcgtc agtatggaca aagccaaggc cagccctctg
+     2521 cgtttgtcct ttgacagggg ccagttggac cccagcagga tggagggctc cagcacgtgc
+     2581 ttctgggccg agagctgcct caccctggtg ccctataccc tggtgcggcc ccatcgaccc
+     2641 gcccggcccc ggcctgtgct cctcgtgccc agggcggttg ggaagatcct gagcgagaaa
+     2701 ctgtgcctcc tccaagggtt taagaagtgc ctggcagagt acttgagcca ggaggagtat
+     2761 gaggcctgga gccagagagg ggacatcatc caggagggag aggtgtccgg gggccgctgc
+     2821 tgggtgaccc gccatgctgt ggagtccctc atggaaaaga acacccatgc cctcctggac
+     2881 gtccagctgg acagtgtctg caccctgcac aggatggaca tcttccccat cgtcatccac
+     2941 gtctctgtca acgagaagat ggcaaagaag ctcaagaagg gcctacagcg gttgggcacc
+     3001 tcagaggagc agctcctgga ggctgcgagg caggaggagg gagacctgga ccgggcgccc
+     3061 tgtctataca gcagcctggc tcctgacggc tggagcgacc tggacggcct gctcagctgt
+     3121 gtccgccagg ccatcgccga cgagcagaag aaggtggtgt ggacggagca gagcccccga
+     3181 tgatgcaccg tgccccttcc cgggactgtg ggggcttctg tgtgcctgtt aatgcagtcc
+     3241 tgttcctcag cccaggccct cttggcacag ctgtgggctc cttggcacat gaggccggct
+     3301 ctccccactg gctggggtct aaccttgaac cctcaccacg tgcaggtcac acacagtgaa
+     3361 gccacttgta actgcacact tttctgtgga aacatcttca ccctttacca ggcttggcat
+     3421 ggtctgaact ggaaaccctg agaatgtttc tgcagtggga caggagggac gtcttcccat
+     3481 gccttcccta gaaccggagg ccccggactt ctctggaaaa ccgcctgtct gcaggcccga
+     3541 ttcaaatcta tgggggctgc acttcccttt tacattttga tgtgtcaaag gcttttggag
+     3601 tgaccaaaag cacagaggca gcgggtgggg cgcctgggtg gtccccaagg tcgctgccac
+     3661 ccttgcccgg ggcagaggca gaagcccaca tatgctgtga cgctggccac cttttctcag
+     3721 cttctgaggc tgcgatgcct caggaactcc agtttacaga gaccagtgtg tttacttgta
+     3781 aataaagcct ctgcgtggtg gagacggtac tttcagtggg tctgtgcccc gtggcccctg
+     3841 tgcctgttcg gtgggggtgt cccagagaag cctggcacca gtacccccgt acaaggccca
+     3901 gcggactctg ccttcccctg acctggcttt gcaccccagc ccttcttggg ccaaacatct
+     3961 ttactccacc ttcagggctc ggggaggacc caggtccgcc agcacctggc cttgcccctg
+     4021 cctcctgggg ctgttgcaga ctgaatgtca ttttgacagc agtgtccaag aatcaggaag
+     4081 ctgttctaga attcaggttg gtatcatcat aaatgagttc agaaaaagaa cttctgtata
+     4141 ttttactaaa ataaaaagct tttacaataa aaaaaaaaaa aaaaaa
+//
+
+LOCUS       NM_052819               1633 bp    mRNA    linear   PRI 16-FEB-2024
+DEFINITION  Homo sapiens caspase recruitment domain family member 14 (CARD14),
+            transcript variant 2, mRNA.
+ACCESSION   NM_052819
+VERSION     NM_052819.3
+KEYWORDS    RefSeq.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 1633)
+  AUTHORS   Li,N., Tao,J., Zhang,J., Liu,Z. and Yu,P.
+  TITLE     A novel mutation in a CARD14-associated papulosquamous eruption
+  JOURNAL   Pediatr Dermatol 40 (4), 706-709 (2023)
+   PUBMED   36724903
+  REMARK    GeneRIF: A novel mutation in a CARD14-associated papulosquamous
+            eruption.
+REFERENCE   2  (bases 1 to 1633)
+  AUTHORS   Trai,N.N., Van Em,D., Van,B.T., My,L.H., Van Tro,C., Hao,N.T.,
+            Vu,H.A., Tram,D.B., Van Thuong,N. and Doanh,L.H.
+  TITLE     Correlation of IL36RN and CARD14 mutations with clinical
+            manifestations and laboratory findings in patients with generalised
+            pustular psoriasis
+  JOURNAL   Indian J Dermatol Venereol Leprol 89 (3), 378-384 (2023)
+   PUBMED   36331855
+  REMARK    GeneRIF: Correlation of IL36RN and CARD14 mutations with clinical
+            manifestations and laboratory findings in patients with generalised
+            pustular psoriasis.
+REFERENCE   3  (bases 1 to 1633)
+  AUTHORS   Niaouris,A., Hernandez-Cordero,A., Haddad,S., Hassi,N.K.,
+            Benzian-Olsson,N., Bugarin Diz,C., Burden,A.D., Cooper,H.L.,
+            Griffiths,C.E.M., Parslew,R., Pink,A.E., Reynolds,N.J., Wahie,S.,
+            Warren,R.B., Wright,A., Simpson,M., Baum,P., Visvanathan,S.,
+            Barker,J.N., Smith,C.H. and Capon,F.
+  CONSRTM   APRICOT and PLUM study team
+  TITLE     Damaging Alleles Affecting Multiple CARD14 Domains Are Associated
+            with Palmoplantar Pustulosis
+  JOURNAL   J Invest Dermatol 143 (3), 504-508 (2023)
+   PUBMED   36174714
+  REMARK    GeneRIF: Damaging Alleles Affecting Multiple CARD14 Domains Are
+            Associated with Palmoplantar Pustulosis.
+REFERENCE   4  (bases 1 to 1633)
+  AUTHORS   Msafiri Makene,A. and Liu,J.L.
+  TITLE     Association between CARD14 gene polymorphisms and psoriasis
+            vulgaris in Hainan Han population based on exon sequencing: A
+            case-control study
+  JOURNAL   Medicine (Baltimore) 101 (40), e30890 (2022)
+   PUBMED   36221432
+  REMARK    GeneRIF: Association between CARD14 gene polymorphisms and
+            psoriasis vulgaris in Hainan Han population based on exon
+            sequencing: A case-control study.
+REFERENCE   5  (bases 1 to 1633)
+  AUTHORS   Suleman,S., Chhabra,G., Raza,R., Hamid,A., Qureshi,J.A. and
+            Ahmad,N.
+  TITLE     Association of CARD14 Single-Nucleotide Polymorphisms with
+            Psoriasis
+  JOURNAL   Int J Mol Sci 23 (16), 9336 (2022)
+   PUBMED   36012602
+  REMARK    GeneRIF: Association of CARD14 Single-Nucleotide Polymorphisms with
+            Psoriasis.
+            Publication Status: Online-Only
+REFERENCE   6  (bases 1 to 1633)
+  AUTHORS   Speckman,R.A., Wright Daw,J.A., Helms,C., Duan,S., Cao,L.,
+            Taillon-Miller,P., Kwok,P.Y., Menter,A. and Bowcock,A.M.
+  TITLE     Novel immunoglobulin superfamily gene cluster, mapping to a region
+            of human chromosome 17q25, linked to psoriasis susceptibility
+  JOURNAL   Hum Genet 112 (1), 34-41 (2003)
+   PUBMED   12483297
+  REMARK    GeneRIF: Chromosome 17q25 harbors a susceptibility locus for
+            psoriasis. Non-parametric linkage analysis revealed a linkage peak
+            lying close to a novel cluster of genes from the immunoglobulin
+            (Ig) superfamily.
+REFERENCE   7  (bases 1 to 1633)
+  AUTHORS   Wang,L., Guo,Y., Huang,W.J., Ke,X., Poyet,J.L., Manji,G.A.,
+            Merriam,S., Glucksmann,M.A., DiStefano,P.S., Alnemri,E.S. and
+            Bertin,J.
+  TITLE     Card10 is a novel caspase recruitment domain/membrane-associated
+            guanylate kinase family member that interacts with BCL10 and
+            activates NF-kappa B
+  JOURNAL   J Biol Chem 276 (24), 21405-21409 (2001)
+   PUBMED   11259443
+REFERENCE   8  (bases 1 to 1633)
+  AUTHORS   Gaide,O., Martinon,F., Micheau,O., Bonnet,D., Thome,M. and
+            Tschopp,J.
+  TITLE     Carma1, a CARD-containing binding partner of Bcl10, induces Bcl10
+            phosphorylation and NF-kappaB activation
+  JOURNAL   FEBS Lett 496 (2-3), 121-127 (2001)
+   PUBMED   11356195
+REFERENCE   9  (bases 1 to 1633)
+  AUTHORS   Bertin,J., Wang,L., Guo,Y., Jacobson,M.D., Poyet,J.L.,
+            Srinivasula,S.M., Merriam,S., DiStefano,P.S. and Alnemri,E.S.
+  TITLE     CARD11 and CARD14 are novel caspase recruitment domain
+            (CARD)/membrane-associated guanylate kinase (MAGUK) family members
+            that interact with BCL10 and activate NF-kappa B
+  JOURNAL   J Biol Chem 276 (15), 11877-11882 (2001)
+   PUBMED   11278692
+REFERENCE   10 (bases 1 to 1633)
+  AUTHORS   Tomfohrde,J., Silverman,A., Barnes,R., Fernandez-Vina,M.A.,
+            Young,M., Lory,D., Morris,L., Wuepper,K.D., Stastny,P., Menter,A.
+            et al.
+  TITLE     Gene for familial psoriasis susceptibility mapped to the distal end
+            of human chromosome 17q
+  JOURNAL   Science 264 (5162), 1141-1145 (1994)
+   PUBMED   8178173
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from BC001326.1 and AC087741.18.
+            
+            On Aug 13, 2020 this sequence version replaced NM_052819.2.
+            
+            Summary: This gene encodes a caspase recruitment domain-containing
+            protein that is a member of the membrane-associated guanylate
+            kinase (MAGUK) family of proteins. Members of this protein family
+            are scaffold proteins that are involved in a diverse array of
+            cellular processes including cellular adhesion, signal transduction
+            and cell polarity control. This protein has been shown to
+            specifically interact with BCL10, a protein known to function as a
+            positive regulator of cell apoptosis and NF-kappaB activation.
+            Alternate splicing results in multiple transcript variants.
+            [provided by RefSeq, Apr 2012].
+            
+            Transcript Variant: This variant (2) lacks several exons at the 5'
+            and 3' ends and its transcription extends past a splice site that
+            is used in variant 1. The encoded isoform 2 has a shorter
+            N-terminus and a distinct C-terminus, compared to isoform 1.
+            
+            Sequence Note: This RefSeq record was created from transcript and
+            genomic sequence data to make the sequence consistent with the
+            reference genome assembly. The genomic coordinates used for the
+            transcript record were based on transcript alignments.
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: BC001326.1 [ECO:0000332]
+            RNAseq introns              :: mixed sample support SAMEA1965299,
+                                           SAMEA1966682 [ECO:0006172]
+            ##Evidence-Data-END##
+            COMPLETENESS: complete on the 3' end.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-1539              BC001326.1         1-1539
+            1540-1540           AC087741.18        11342-11342         c
+            1541-1633           BC001326.1         1541-1633
+FEATURES             Location/Qualifiers
+     source          1..1633
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="17"
+                     /map="17q25.3"
+     gene            1..1633
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /note="caspase recruitment domain family member 14"
+                     /db_xref="GeneID:79092"
+                     /db_xref="HGNC:HGNC:16446"
+                     /db_xref="MIM:607211"
+     exon            1..124
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     misc_feature    98..100
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /note="upstream in-frame stop codon"
+     exon            125..292
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     CDS             161..1465
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /note="isoform 2 is encoded by transcript variant 2;
+                     bcl10-interacting maguk protein 2; caspase recruitment
+                     domain-containing protein 14; CARD-containing MAGUK
+                     protein 2"
+                     /codon_start=1
+                     /product="caspase recruitment domain-containing protein 14
+                     isoform 2"
+                     /protein_id="NP_438170.1"
+                     /db_xref="GeneID:79092"
+                     /db_xref="HGNC:HGNC:16446"
+                     /db_xref="MIM:607211"
+                     /translation="MVSSCELELQEQSLRTASDQESGDEELNRLKEENEKLRSLTFSL
+                     AEKDILEQSLDEARGSRQELVERIHSLRERAVAAERQREQYWEEKEQTLLQFQKSKMA
+                     CQLYREKVNALQAQVCELQKERDQAYSARDSAQREISQSLVEKDSLRRQVFELTDQVC
+                     ELRTQLRQLQAEPPGVLKQEARTREPCPREKQRLVRMHAICPRDDSDCSLVSSTESQL
+                     LSDLSATSSRELVDSFRSSSPAPPSQQSLYKRVAEDFGEEPWSFSSCLEIPEGDPGAL
+                     PGAKAGDPHLDYELLDTADLPQLESSLQPVSPGRLDVSESGVLMRRRPARRILSQVTM
+                     LAFQGDALLEQISVIGGNLTGIFIHRVTPGSAADQMALRPGTQIVMVSRARPLLSPGL
+                     LMGTVAAGGVTQADFTSPRRCRSTLGWASALSWADVKRSAHL"
+     exon            293..412
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            413..538
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            539..688
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            689..805
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            806..948
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            949..1043
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1044..1107
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1108..1633
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /inference="alignment:Splign:2.1.0"
+     regulatory      1611..1616
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /note="hexamer: CATAAA"
+     polyA_site      1633
+                     /gene="CARD14"
+                     /gene_synonym="BIMP2; CARMA2; PRP; PSORS2; PSS1"
+                     /note="major polyA site"
+ORIGIN      
+        1 gtccagagga aggaggccag caggacctgg tgggatagtc cctggaaggc cagggccctg
+       61 cacacagact gcaagtcaac acaggagctt tgctgtctga acagccccgg tcccgcgttc
+      121 ccagctgtat ctactgaagc aggagctgca gcgagccaac atggtttcct cctgtgagct
+      181 ggaattgcaa gagcagtccc tgaggacagc cagcgaccag gagtccgggg atgaggagct
+      241 gaaccgcctg aaggaggaga atgagaaact gcgctcgctg actttcagcc tggcggagaa
+      301 ggacattctg gagcagagcc tggacgaggc gcgggggagc cgacaggagc tggtggagcg
+      361 catccactcg ctgcgggagc gggccgtggc tgccgagagg cagcgagagc agtactggga
+      421 agagaaggaa cagaccctgc tgcagttcca gaagagtaag atggcctgcc aactctacag
+      481 ggagaaggtg aatgcgctgc aggcccaggt gtgcgagctg cagaaggagc gagaccaggc
+      541 gtactccgcg agggacagtg ctcagaggga gatttcccag agcctggtgg agaaggactc
+      601 cctccgcagg caggtgttcg agctgacgga ccaggtctgc gagctgcgca cacagcttcg
+      661 ccagctgcag gcagagcctc cgggtgtgct caagcaggaa gccaggacca gggagccctg
+      721 tccacgggag aagcagcggc tggtgcggat gcatgccatc tgccccagag acgacagcga
+      781 ctgcagcctc gtcagctcca cagagtctca gctcttgtcg gacctgagtg ccacgtccag
+      841 ccgcgagctg gtggacagct tccgctccag cagccccgcg ccccccagcc agcagtccct
+      901 gtacaagcgg gtggccgagg acttcgggga agaaccctgg tctttcagca gctgcctgga
+      961 gatcccggag ggagacccgg gagccctgcc gggagctaag gcaggcgacc cacacctgga
+     1021 ttatgagctc ctagacacgg cagaccttcc gcagctggaa agcagcctgc agccagtctc
+     1081 ccctggaagg cttgatgtct cggagagcgg cgtcctcatg cggcggaggc cagcccgcag
+     1141 gatcctgagc caggtcacca tgctggcgtt ccagggggat gcattgctgg agcagatcag
+     1201 cgtcatcggc gggaacctca cgggcatctt catccaccgg gtcaccccgg gctcggcggc
+     1261 ggaccagatg gccttgcgcc cgggcaccca gattgtgatg gtgagccgtg cgaggcccct
+     1321 cctgtccccc gggctcctca tggggacagt ggcagcgggt ggggtgaccc aggcagactt
+     1381 cacctccccc agacgatgca gatccactct gggctgggcc tctgctcttt cctgggctga
+     1441 cgtaaagcgt tctgctcatt tatagatgag agtcgtgccg tgcagaaccc agcatgtcac
+     1501 ccgtggtgct gctgccatgc ggcgcttctg accaggggtc tttgcatgag gccccttgac
+     1561 agggctgctc tgggtggtca ctttgggtgt gtacagtaaa atacacgtga cataaaattc
+     1621 actattttaa cca
+//
+

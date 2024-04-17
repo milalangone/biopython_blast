@@ -14,10 +14,10 @@ touch $LOG_FILE
 chmod 777 $LOG_FILE
 
 # Run the pipeline with unique timestamp for each execution
-fecha_actual=$(date + '%d/%m/%y %H:%M')
+fecha_actual=$(date)
 echo ">>$fecha_actual" >> $LOG_FILE
 
-python3 Ex1.py -s transcript_3.gb >> $LOG_FILE
+python3 Ex1.py -s sequence.gb >> $LOG_FILE
 python3 best_rf.py -t "fasta_output.fasta" >> $LOG_FILE
 python3 Ex2.py -f "fasta_longest.fasta" >> $LOG_FILE
 python3 Ex3.py -q "fasta_longest.fasta" >> $LOG_FILE
