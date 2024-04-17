@@ -22,3 +22,19 @@ else
 fi
 
 ### CHECK FOR NEEDED LIBRARIES ### 
+
+python3 -c "import Bio" 
+if [ $? -ne 0 ]; then
+  echo "Biopython is not installed. Installing Biopython..."
+  pip3 install biopython -y
+else
+  echo "Biopython is already installed."
+fi
+
+python3 -c "import pandas"
+if [ $? -ne 0 ]; then
+  echo "Pandas is not installed. Installing Pandas..."
+  pip3 install pandas -y
+else
+  echo "Pandas is already installed."
+fi
