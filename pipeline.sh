@@ -3,7 +3,10 @@ sh prepare_env.sh
 if [ $? -ne 0 ]; then
   echo "Error in prepare_env.sh - Something could not be installed/upgraded - Check before running this script again."
   exit 1
+else
+  echo "Environment is ready."
 fi
+
 
 # Create log file and give permissions
 LOG_FILE="log.log"
