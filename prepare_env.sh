@@ -12,32 +12,9 @@ else
   echo "Python3 is already installed."
 fi
 
-# Check if pip is installed
-pip3 --version 
-if [ $? -ne 0 ]; then
-  echo "pip3 is not installed. Installing pip..."
-  sudo apt install python3-pip -y 
-else
-  echo "pip3 is already installed."
-fi
+pip install -r requirements.txt
 
-### CHECK FOR NEEDED LIBRARIES ### 
-
-python3 -c "import Bio" 
-if [ $? -ne 0 ]; then
-  echo "Biopython is not installed. Installing Biopython..."
-  pip3 install biopython
-else
-  echo "Biopython is already installed."
-fi
-
-python3 -c "import pandas" &>/dev/null
-if [ $? -ne 0 ]; then
-  echo "Pandas is not installed. Installing Pandas..."
-  pip3 install pandas
-else
-  echo "Pandas is already installed."
-fi
+### CHECK FOR NEEDED TOOLS ### 
 
 clustalo --version 
 if [ $? -ne 0 ]; then
