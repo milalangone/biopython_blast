@@ -2,6 +2,9 @@
 
 ### CHECK FOR PROGRAMMING LANGUAGES AND PKG MANAGERS ###
 
+# PARA INSTALAR LAS LIBRERIAS QUE QUIERO en vez de chquear a mano si estan o no
+# pip freeze > requirements.txt
+# pip install -r requirements.txt
 # Check if python3 version
 python3 --version 
 if [ $? -ne 0 ]; then
@@ -28,7 +31,7 @@ fi
 muscle -version 
 if [ $? -ne 0 ]; then
   echo "Muscle is not installed. Installing Muscle..."
-  sudo apt-get install myscle
+  sudo apt-get install myscle 
 else
   echo "Muscle is already installed."
 fi
