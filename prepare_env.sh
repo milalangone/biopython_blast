@@ -2,9 +2,6 @@
 
 ### CHECK FOR PROGRAMMING LANGUAGES AND PKG MANAGERS ###
 
-# PARA INSTALAR LAS LIBRERIAS QUE QUIERO en vez de chquear a mano si estan o no
-# pip freeze > requirements.txt
-# pip install -r requirements.txt
 # Check if python3 version
 python3 --version 
 if [ $? -ne 0 ]; then
@@ -15,6 +12,7 @@ else
   echo "Python3 is already installed."
 fi
 
+# TO GENERATE THE FILE: Install locally all reqs and then run `pip freeze > requirements.txt`
 pip install -r requirements.txt
 
 ### CHECK FOR NEEDED TOOLS ### 
