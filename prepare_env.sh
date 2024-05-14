@@ -2,9 +2,6 @@
 
 ### CHECK FOR PROGRAMMING LANGUAGES AND PKG MANAGERS ###
 
-# PARA INSTALAR LAS LIBRERIAS QUE QUIERO en vez de chquear a mano si estan o no
-# pip freeze > requirements.txt
-# pip install -r requirements.txt
 # Check if python3 version
 python3 --version 
 if [ $? -ne 0 ]; then
@@ -15,32 +12,11 @@ else
   echo "Python3 is already installed."
 fi
 
-# Check if pip is installed
-pip3 --version 
-if [ $? -ne 0 ]; then
-  echo "pip3 is not installed. Installing pip..."
-  sudo apt install python3-pip -y 
-else
-  echo "pip3 is already installed."
-fi
+sudo apt install python3-pip
+# TO GENERATE THE FILE: Install locally all reqs and then run `pip freeze > requirements.txt`
+pip install -r requirements.txt
 
-### CHECK FOR NEEDED LIBRARIES ### 
-
-python3 -c "import Bio" 
-if [ $? -ne 0 ]; then
-  echo "Biopython is not installed. Installing Biopython..."
-  pip3 install biopython
-else
-  echo "Biopython is already installed."
-fi
-
-python3 -c "import pandas" &>/dev/null
-if [ $? -ne 0 ]; then
-  echo "Pandas is not installed. Installing Pandas..."
-  pip3 install pandas
-else
-  echo "Pandas is already installed."
-fi
+### CHECK FOR NEEDED TOOLS ### 
 
 clustalo --version 
 if [ $? -ne 0 ]; then
@@ -54,7 +30,7 @@ fi
 muscle -version 
 if [ $? -ne 0 ]; then
   echo "Muscle is not installed. Installing Muscle..."
-  sudo apt-get install myscle 
+  sudo apt-get install muscle
 else
   echo "Muscle is already installed."
 fi
