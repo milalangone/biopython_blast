@@ -30,6 +30,7 @@ fi
 muscle -version 
 if [ $? -ne 0 ]; then
   echo "Muscle is not installed. Installing Muscle..."
+  sudo apt update
   sudo apt-get install muscle
 else
   echo "Muscle is already installed."
@@ -38,6 +39,7 @@ fi
 embossdata --version
 if [ $? -ne 0 ]; then
   echo "EMBOSS is not installed. Installing EMBOSS..."
+  sudo apt update
   sudo apt-get install emboss
 else
   echo "EMBOSS is already installed."
