@@ -12,6 +12,7 @@ else
   echo "Python3 is already installed."
 fi
 
+sudo apt install python3-pip
 # TO GENERATE THE FILE: Install locally all reqs and then run `pip freeze > requirements.txt`
 pip install -r requirements.txt
 
@@ -29,7 +30,7 @@ fi
 muscle -version 
 if [ $? -ne 0 ]; then
   echo "Muscle is not installed. Installing Muscle..."
-  sudo apt-get install myscle 
+  sudo apt-get install muscle
 else
   echo "Muscle is already installed."
 fi
