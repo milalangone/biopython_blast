@@ -1,12 +1,9 @@
 import urllib.request
 import os
+import subprocess
+import utils
+import argparse
 
-'''
-Parte 1 del ej 4:
-    Escribir un script que llame a algún programa EMBOSS para que realice algún 
-    análisis sobre la una secuencia de nucleótidos fasta (del Ej. 1). Por ejemplo 
-    que calcule los ORF y obtenga las secuencias de proteínas posibles.
-'''
 url_prosite = "https://ftp.expasy.org/databases/prosite/prosite.dat"
 ruta_archivo = "prosite.dat"
 
@@ -20,15 +17,33 @@ else:
         print(f"Error al descargar el archivo: {e}")
         exit()
 
+ap = utils.argparse.ArgumentParser()
+ap.add_argument('-i', '--input', help="Archivo de secuencia de nucleótidos para buscar los ORFs")
+args = vars(ap.parse_args())
+output_file = 'found_domains.patmatmotifs'
+
 if os.path.isfile(ruta_archivo):
-    '''
-    Parte 2 ej 4:
-        Llamado a otro programa EMBOSS realizar el análisis de dominios de 
-        las secuencias de aminoácidos obtenidas y escribir los resultados 
-        en un archivo de salida.
-    '''
-    print("jaja")
+    if args['input']:
+        orf_output_file = "orfs.fasta"
+        getorf_cmd = ['getorf', '-sequence', args['input'], '-outseq', orf_output_file]
+        result = subprocess.run(getorf_cmd, stderr=subprocess.PIPE)
+
+        if result.returncode == 0:
+            print(f"ORFs calculados y guardados en {orf_output_file}")
+        else:
+            print("Se produjo un error al calcular los ORFs. Detalle del error: ")
+            print(result.stderr.decode())
+            exit()
+
+        patmotif = f"patmatmotifs -sequence {orf_output_file} -outfile {output_file}"
+        with open(output_file, "w") as file:
+            result = subprocess.run(patmotif, shell=True, stderr=subprocess.PIPE, stdout=file)
+        if result.returncode == 0:
+            print(f'Analisis de dominios completado. Se guardaron en el archivo {output_file}')
+        else:
+            print("Se produjo un error al analizar los dominios. Detalle del error: ")
+            print(result.stderr.decode())
+            
 else:
     print(f"El archivo {ruta_archivo} no se descargò correctamente")
 
-    

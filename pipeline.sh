@@ -19,6 +19,7 @@ echo ">>$fecha_actual" >> $LOG_FILE
 
 python3 Ex1.py -s sequence.gb >> $LOG_FILE
 python3 best_rf.py -t "fasta_output.fasta" >> $LOG_FILE
-python3 Ex2.py -f "fasta_longest.fasta" >> $LOG_FILE
-python3 Ex3.py -q "fasta_longest.fasta" >> $LOG_FILE
+#python3 Ex2.py -f "fasta_longest.fasta" >> $LOG_FILE
+#python3 Ex3.py -q "fasta_longest.fasta" >> $LOG_FILE
+python3 Ex4.py -i sequence.fasta >> $LOG_FILE
 
