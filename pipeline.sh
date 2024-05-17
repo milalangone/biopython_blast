@@ -22,3 +22,4 @@ python3 best_rf.py -t "fasta_output.fasta" >> $LOG_FILE
 python3 Ex2.py -f "fasta_longest.fasta" >> $LOG_FILE
 python3 Ex3.py -q "fasta_longest.fasta" >> $LOG_FILE
 
+python3 Ex5.py -s sequence.gb -j 'parameters.json' >> $LOG_FILE

@@ -1,3 +1,4 @@
+import json
 from Bio import SeqIO
 from Bio.SeqRecord import SeqRecord
 from Bio.Seq import Seq
@@ -25,3 +26,8 @@ def read_blast(filename):
     from Bio import SearchIO
     blast_records = SearchIO.parse(filename, "blast-xml")
     return blast_records
+
+def read_json(filename):
+    with open(filename, 'r') as file:
+        primer_parameters = json.load(filename)
+    return primer_parameters
