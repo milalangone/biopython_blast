@@ -3,7 +3,6 @@ import pandas as pd
 import time
 import utils
 import glob
-import subprocess
 
 def progresive_alignment(archivo_entrada, archivo_salida = "progresive_output.fasta"):
 	from Bio.Align.Applications import ClustalOmegaCommandline
