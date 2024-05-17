@@ -5,5 +5,5 @@
     "max_gc_content":60,
     "max_tm":67,
     "allow_gc_terminal": false,
-    "num_primers":200
+    "num_primers":10
 }

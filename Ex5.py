@@ -16,7 +16,7 @@ def has_gc_terminal(sequence):
     return sequence.startswith('G') or sequence.startswith('C') or sequence.endswith('G') or sequence.endswith('C')
 
 def validate_primer(sequence):
-    if not valid_length(sequence, primer_parameters["min_length"], primer_parameters["max_length"]) and valid_gc_content(sequence, primer_parameters["min_gc_content"], primer_parameters["max_gc_content"]) and valid_tm(sequence,primer_parameters["max_tm"]):
+    if not valid_length(sequence, primer_parameters["min_length"], primer_parameters["max_length"]) or not valid_gc_content(sequence, primer_parameters["min_gc_content"], primer_parameters["max_gc_content"]) or not valid_tm(sequence,primer_parameters["max_tm"]):
         return False
     
     if primer_parameters["allow_gc_terminal"]:
@@ -62,6 +62,13 @@ args = vars(ap.parse_args())
 if args['s'] and args['j']:
     sequences = utils.read_genbank_file(args['s'])
     primer_parameters = utils.read_json(args['j'])
-    for transcript in sequences.items():
-        primers = design_primers(transcript)
-        print(primers)
+    primers = {}
+    for key, transcript in (sequences.items()):
+        total_primers = generate_primers(transcript)
+        for (i, primer) in enumerate(total_primers):
+            primers[key+f'_primer_{i}'] = total_primers[i]
+    utils.write_fasta_file("fasta_primers.fasta", primers)
+    print('Primers generados y resultados guardados con exito')
+
+else:
+	print("Error: Debes proporcionar al menos un archivo de secuencia con el argumento -s y un archivo JSON con los parametros con el argumento -j")
