@@ -21,6 +21,6 @@ python3 Ex1.py -s sequence.gb >> $LOG_FILE
 python3 best_rf.py -t "fasta_output.fasta" >> $LOG_FILE
 #python3 Ex2.py -f "fasta_longest.fasta" >> $LOG_FILE
 #python3 Ex3.py -q "fasta_longest.fasta" >> $LOG_FILE
-python3 Ex4.py -i sequence.fasta >> $LOG_FILE
+python3 Ex4.py -i sequence_10.fasta >> $LOG_FILE
 
-python3 Ex5.py -s sequence.gb -j 'parameters.json' >> $LOG_FILE
+python3 Ex5.py -s sequence.gb -j parameters.json >> $LOG_FILE

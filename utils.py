@@ -29,5 +29,5 @@ def read_blast(filename):
 
 def read_json(filename):
     with open(filename, 'r') as file:
-        primer_parameters = json.load(filename)
+        primer_parameters = json.load(file)
     return primer_parameters

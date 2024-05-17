@@ -6,8 +6,8 @@ import utils
 def valid_gc_content(sequence, min_gc_content,max_gc_content):
     return min_gc_content <= gc_fraction(sequence)*100 <= max_gc_content
     
-def valid_lenght(sequence, min_lenght, max_lenght):
-    return min_lenght <= len(sequence) <= max_lenght
+def valid_length(sequence, min_length, max_length):
+    return min_length <= len(sequence) <= max_length
     
 def valid_tm(sequence, max_tm):
     return mt.Tm_NN(sequence) <= max_tm
@@ -16,7 +16,7 @@ def has_gc_terminal(sequence):
     return sequence.startswith('G') or sequence.startswith('C') or sequence.endswith('G') or sequence.endswith('C')
 
 def validate_primer(sequence):
-    if not valid_lenght(sequence, primer_parameters["min_lenght"], primer_parameters["max_lenght"]) and valid_gc_content(sequence, primer_parameters["min_gc_content"], primer_parameters["max_gc_content"]) and valid_tm(sequence,primer_parameters["max_tm"]):
+    if not valid_length(sequence, primer_parameters["min_length"], primer_parameters["max_length"]) and valid_gc_content(sequence, primer_parameters["min_gc_content"], primer_parameters["max_gc_content"]) and valid_tm(sequence,primer_parameters["max_tm"]):
         return False
     
     if primer_parameters["allow_gc_terminal"]:
@@ -40,7 +40,7 @@ def generate_primers(sequence):
 
 def design_primers(transcript):
     forward_primers = generate_primers(transcript)
-    reverse_primers = generate_primers(str(Seq(transcript).reverse_complement()))
+    reverse_primers = generate_primers(Seq(str(transcript)).reverse_complement())
 
     primer_pairs = []
     for fwd in forward_primers:
@@ -64,3 +64,4 @@ if args['s'] and args['j']:
     primer_parameters = utils.read_json(args['j'])
     for transcript in sequences.items():
         primers = design_primers(transcript)
+        print(primers)
