@@ -1,6 +1,8 @@
 # No queremos subir estos archivos
 *.gb
 *.fasta
+#temporalmente subo este fasta unicamente
+!outseq_ej4.fasta
 *.out
 *.log
 __pycache__
