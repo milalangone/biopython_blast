@@ -27,5 +27,5 @@ echo "- EJ 3"
 python3 Ex3.py -q "fasta_longest.fasta" >> $LOG_FILE
 echo "- EJ 4"
 python3 Ex4.py -i sequence.fasta >> $LOG_FILE
-#echo "- EJ 5" - comentado porque me tira error
-#python3 Ex5.py -s sequence.gb -j parameters.json >> $LOG_FILE
+echo "- EJ 5"
+python3 Ex5.py -s sequence.gb -j parameters.json >> $LOG_FILE
