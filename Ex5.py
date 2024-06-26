@@ -38,22 +38,6 @@ def generate_primers(sequence):
             break
     return primers
 
-def design_primers(transcript):
-    forward_primers = generate_primers(transcript)
-    reverse_primers = generate_primers(Seq(str(transcript)).reverse_complement())
-
-    primer_pairs = []
-    for fwd in forward_primers:
-        for rev in reverse_primers:
-            if len(primer_pairs) < int(primer_parameters["min_length"]/2):
-                primer_pairs.append([fwd, rev])
-            else:
-                break
-        if len(primer_pairs) >= int(primer_parameters["min_length"]/2):
-            break
-
-    return primer_pairs
-
 ap = utils.argparse.ArgumentParser()
 ap.add_argument('-s')
 ap.add_argument('-j')
@@ -64,9 +48,12 @@ if args['s'] and args['j']:
     primer_parameters = utils.read_json(args['j'])
     primers = {}
     for key, transcript in (sequences.items()):
-        total_primers = generate_primers(transcript)
-        for (i, primer) in enumerate(total_primers):
-            primers[key+f'_primer_{i}'] = total_primers[i]
+        forward_primers = generate_primers(transcript)
+        reverse_primers = generate_primers(Seq(str(transcript)).reverse_complement())
+        for (i, primer) in enumerate(forward_primers):
+            primers[key+f'_fwd_primer_{i}'] = forward_primers[i]
+        for (j,r_primer) in enumerate(reverse_primers):
+            primers[key+f'_rev_primer_{j}'] = reverse_primers[i]
     utils.write_fasta_file("fasta_primers.fasta", primers)
     print('Primers generados y resultados guardados con exito')
 
