@@ -8,10 +8,9 @@
 # de los resultados del Blast, y mencionar como se debe ejecutar para probarlo.
 
 from Bio.Blast import NCBIWWW
-from Bio.Blast import NCBIXML
 import utils
 
-def do_blast(sequence_data, output_file):
+def run_blast(sequence_data, output_file):
     print("Por empezar a realizar el Blast")
     # Realizar BLAST de la secuencia
     result_handle = NCBIWWW.qblast("blastp", "swissprot", sequence_data, hitlist_size=20)
@@ -34,7 +33,7 @@ if args['f']:
         output_file = key + "_blast.out"
 
         # Realizar BLAST y guardar el resultado en un archivo
-        do_blast(value, output_file)
+        run_blast(value, output_file)
 
     print("BLAST completado y resultados guardados.")
     

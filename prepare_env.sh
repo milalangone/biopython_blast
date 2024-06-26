@@ -18,6 +18,30 @@ pip install -r requirements.txt
 
 ### CHECK FOR NEEDED TOOLS ### 
 
+blastp --version 
+if [ $? -ne 0 ]; then
+  echo "Blastp is not installed. Installing Blastp..."
+  sudo apt update
+  sudo apt-get install ncbi-blast+
+else
+  echo "Blastp is already installed."
+fi
+
+perl -v
+if [ $? -ne 0 ]; then
+  echo "Perl is not installed. Installing Perl..."
+  sudo apt update
+  sudo apt-get install perl
+else
+  echo "Perl is already installed."
+fi
+
+if [ ! -f "swissprot"]; then
+  echo "Installing SwissProt..."
+  update_blastdb --decompress swissprot
+else
+  echo "SwissProt is already installed."
+
 clustalo --version 
 if [ $? -ne 0 ]; then
   echo "Clustalo is not installed. Installing Clustalo..."
