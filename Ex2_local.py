@@ -8,7 +8,7 @@ def run_blast(sequence, output):
         "-query", sequence,
         "-db", "swissprot",
         "-out", output,
-        "-outfmt", "6" #XML output
+        "-outfmt", "5" #XML output
     ]
     subprocess.run(blast_command)
 
