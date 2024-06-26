@@ -41,6 +41,7 @@ if [ ! -f "swissprot"]; then
   update_blastdb --decompress swissprot
 else
   echo "SwissProt is already installed."
+fi
 
 clustalo --version 
 if [ $? -ne 0 ]; then
