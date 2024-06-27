@@ -32,14 +32,6 @@ python3 Ex2_local.py -f "fasta_longest.fasta" >> $LOG_FILE
 echo "- EJ 3" >> $LOG_FILE
 python3 Ex3.py -q "fasta_longest.fasta" >> $LOG_FILE
 echo "- EJ 4" >> $LOG_FILE
-echo "Running ex4_helper.sh to setup PROSITE and EMBOSS environment..."
-sh ex4_helper.sh
-if [ $? -ne 0 ]; then
-  echo "Error in ex4_helper.sh - Something went wrong during the setup - Check before running this script again."
-  exit 1
-else
-  echo "PROSITE and EMBOSS environment is ready."
-fi
 python3 Ex4.py -i sequence.gb -s sequences_10.fasta >> $LOG_FILE
 echo "- EJ 5" >> $LOG_FILE
 python3 Ex5.py -s sequence.gb -j parameters.json >> $LOG_FILE
