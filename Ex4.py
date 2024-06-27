@@ -25,7 +25,6 @@ if args['input']:
 
 
     patmotif_cmd = f'patmatmotifs -sequence {args["sequence"]} -outfile {output_file}'
-    print(f'patmotif_cmd es {patmotif_cmd}')
     with open(output_file, "w") as file:
         result = subprocess.run(patmotif_cmd, shell=True, stderr=subprocess.PIPE, stdout=file)
     if result.returncode == 0:
