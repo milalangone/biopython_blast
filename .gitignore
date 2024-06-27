@@ -21,3 +21,4 @@ __pycache__
 *.bti
 *.sqlite3
 swissprot
+*.patmatmotifs
