@@ -1,15 +1,12 @@
-from Bio import SeqIO
 import pandas as pd
 import time
 import utils
-import glob
 
 def progresive_alignment(archivo_entrada, archivo_salida = "progresive_output.fasta"):
 	from Bio.Align.Applications import ClustalOmegaCommandline
 	clustalomega_cline = ClustalOmegaCommandline(infile=archivo_entrada, outfile=archivo_salida, force = True)
 	stdout, _ = clustalomega_cline()
 	return stdout
-
 
 def iterative_alignment(archivo_entrada, archivo_salida = "iterative_output.fasta"):
     from Bio.Align.Applications import MuscleCommandline
@@ -24,15 +21,7 @@ def calculate_excecution_time(func):
     execution_time = end_time - start_time
     return stdout, execution_time
 
-
-ap = utils.argparse.ArgumentParser()
-ap.add_argument('-q')
-args = vars(ap.parse_args())
-
-if args['q']:
-	query = utils.read_fasta_file(args['q'])
-	blast_file = glob.glob("*.out")
-	blast_records = utils.read_blast(blast_file[0])
+def best_10_hits(blast_records):
 
 	sequences_10 = {}
 	sequences_count = 0 
@@ -50,6 +39,16 @@ if args['q']:
 
 	sequences_10.update(query)
 	utils.write_fasta_file("sequences_10.fasta",sequences_10)
+
+
+ap = utils.argparse.ArgumentParser()
+ap.add_argument('-q')
+args = vars(ap.parse_args())
+
+if args['q']:
+	query = utils.read_fasta_file(args['q'])
+	blast_records = utils.read_blast("local_blast_result.out")
+	best_10_hits(blast_records)
 	
 	stdout_p, tiempo_ejecucion_p = calculate_excecution_time(progresive_alignment)
 	stdout_i, tiempo_ejecucion_i = calculate_excecution_time(iterative_alignment)
