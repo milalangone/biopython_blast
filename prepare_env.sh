@@ -70,8 +70,6 @@ else
   echo "EMBOSS is already installed."
 fi
 
-#!/bin/bash
-
 export EMBOSS_DATA=$HOME/emboss_data
 mkdir -p $HOME/emboss_data/PROSITE
 
