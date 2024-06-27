@@ -30,7 +30,7 @@ args = vars(ap.parse_args())
 if args['f']:
     sequences = utils.read_fasta_file(args['f'])
     for key, value in sequences.items():
-        output_file = key + "_blast.out"
+        output_file = "server_blast.out"
 
         # Realizar BLAST y guardar el resultado en un archivo
         run_blast(value, output_file)

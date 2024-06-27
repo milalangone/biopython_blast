@@ -23,6 +23,9 @@ python3 Ex1.py -s sequence.gb >> $LOG_FILE
 python3 best_rf.py -t "fasta_output.fasta" >> $LOG_FILE
 echo "- EJ 2 local"
 python3 Ex2_local.py -f "fasta_longest.fasta" >> $LOG_FILE
+# If server blast is wanted, uncomment next 2 lines:
+# echo "- EJ 2 web server"
+# python3 Ex2.py -f "fasta_longest.fasta" >> $LOG_FILE
 echo "- EJ 3"
 python3 Ex3.py -q "fasta_longest.fasta" >> $LOG_FILE
 echo "- EJ 4"
