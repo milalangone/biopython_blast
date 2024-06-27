@@ -18,8 +18,6 @@ fecha_actual=$(date)
 echo ">>$fecha_actual" >> $LOG_FILE
 
 
-
-
 echo "Running pipeline..."
 echo "- EJ 1" >> $LOG_FILE
 python3 Ex1.py -s sequence.gb >> $LOG_FILE
