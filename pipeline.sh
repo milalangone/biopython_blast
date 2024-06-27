@@ -18,14 +18,14 @@ fecha_actual=$(date)
 echo ">>$fecha_actual" >> $LOG_FILE
 
 echo "Running pipeline..."
-echo "- EJ 1"
+echo "- EJ 1" >> $LOG_FILE
 python3 Ex1.py -s sequence.gb >> $LOG_FILE
 python3 best_rf.py -t "fasta_output.fasta" >> $LOG_FILE
-echo "- EJ 2 local"
+echo "- EJ 2 local" >> $LOG_FILE
 python3 Ex2_local.py -f "fasta_longest.fasta" >> $LOG_FILE
-echo "- EJ 3"
+echo "- EJ 3" >> $LOG_FILE
 python3 Ex3.py -q "fasta_longest.fasta" >> $LOG_FILE
-echo "- EJ 4"
-python3 Ex4.py -i sequence.fasta >> $LOG_FILE
-echo "- EJ 5"
+echo "- EJ 4" >> $LOG_FILE
+python3 Ex4.py -i sequence.gb >> $LOG_FILE
+echo "- EJ 5" > $LOG_FILE
 python3 Ex5.py -s sequence.gb -j parameters.json >> $LOG_FILE

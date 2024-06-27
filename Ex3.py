@@ -7,7 +7,6 @@ import glob
 def progresive_alignment(archivo_entrada, archivo_salida = "progresive_output.fasta"):
 	from Bio.Align.Applications import ClustalOmegaCommandline
 	clustalomega_cline = ClustalOmegaCommandline(infile=archivo_entrada, outfile=archivo_salida, force = True)
-	print("help ", help(ClustalOmegaCommandline))
 	stdout, _ = clustalomega_cline()
 	return stdout
 
@@ -32,7 +31,7 @@ args = vars(ap.parse_args())
 
 if args['q']:
 	query = utils.read_fasta_file(args['q'])
-	blast_file = glob.glob("*.out")
+	blast_file = glob.glob("*.out") # todo: pasar por opt
 	blast_records = utils.read_blast(blast_file[0])
 
 	sequences_10 = {}
@@ -61,7 +60,7 @@ if args['q']:
 	}
 
 	df = pd.DataFrame(data)
-	print("El tiempo de ejecucion de cada algoritmo es: ", df)
+	print("El tiempo de ejecucion de cada algoritmo es:\n", df)
 	print('Alineamiento multiple realizado y resultados guardados con exito')
 else:
 	print("Error: Debes proporcionar al menos un archivo de secuencia query con el argumento -q")
