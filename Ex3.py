@@ -60,7 +60,7 @@ if args['q']:
 	}
 
 	df = pd.DataFrame(data)
-	print("El tiempo de ejecucion de cada algoritmo es: ", df)
+	print("El tiempo de ejecucion de cada algoritmo es:\n", df)
 	print('Alineamiento multiple realizado y resultados guardados con exito')
 else:
 	print("Error: Debes proporcionar al menos un archivo de secuencia query con el argumento -q")
