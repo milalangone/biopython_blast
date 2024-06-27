@@ -40,6 +40,6 @@ if [ $? -ne 0 ]; then
 else
   echo "PROSITE and EMBOSS environment is ready."
 fi
-python3 Ex4.py -i sequence.gb -s fasta_output.fasta >> $LOG_FILE
+python3 Ex4.py -i sequence.gb -s sequences_10.fasta >> $LOG_FILE
 echo "- EJ 5" >> $LOG_FILE
 python3 Ex5.py -s sequence.gb -j parameters.json >> $LOG_FILE
