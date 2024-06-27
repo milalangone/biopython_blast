@@ -3,9 +3,13 @@ import os
 import subprocess
 import utils
 import argparse
+from Bio import SeqIO
 
 url_prosite = "https://ftp.expasy.org/databases/prosite/prosite.dat"
 ruta_archivo = "prosite.dat"
+
+prosextract_cmd = ['prosextract']
+result = subprocess.run(prosextract_cmd, stderr=subprocess.PIPE)
 
 if os.path.isfile(ruta_archivo):
     print(f"El archivo {ruta_archivo} ya está descargado")
@@ -35,9 +39,13 @@ if os.path.isfile(ruta_archivo):
             print(result.stderr.decode())
             exit()
 
-        patmotif = f"patmatmotifs -sequence {orf_output_file} -outfile {output_file}"
+        with open(output_file, "w") as output_handle:
+            for record in SeqIO.parse(args["input"], "genbank"):
+                SeqIO.write(record, 'sequence.fasta', "fasta")
+
+        patmotif_cmd = ['patmatmotifs', '-sequence', 'sequence.fasta', '-outfile', output_file]
         with open(output_file, "w") as file:
-            result = subprocess.run(patmotif, shell=True, stderr=subprocess.PIPE, stdout=file)
+            result = subprocess.run(patmotif_cmd, shell=True, stderr=subprocess.PIPE, stdout=file)
         if result.returncode == 0:
             print(f'Analisis de dominios completado. Se guardaron en el archivo {output_file}')
         else:
