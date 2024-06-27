@@ -7,7 +7,6 @@ import glob
 def progresive_alignment(archivo_entrada, archivo_salida = "progresive_output.fasta"):
 	from Bio.Align.Applications import ClustalOmegaCommandline
 	clustalomega_cline = ClustalOmegaCommandline(infile=archivo_entrada, outfile=archivo_salida, force = True)
-	print("help ", help(ClustalOmegaCommandline))
 	stdout, _ = clustalomega_cline()
 	return stdout
 
