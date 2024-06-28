@@ -1,9 +1,5 @@
-import urllib.request
-import os
 import subprocess
 import utils
-import argparse
-from Bio import SeqIO
 
 ap = utils.argparse.ArgumentParser()
 ap.add_argument('-i', '--input', help="Archivo de secuencia de nucleótidos para buscar los ORFs")

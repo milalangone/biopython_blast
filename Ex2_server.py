@@ -1,12 +1,3 @@
-# Ejercicio 2:
-# Ejercicio 2.a - BLAST.
-# Escribir un script que realice un BLAST de una o varias secuencias (si son varias se realiza un Blast por cada secuencia input) 
-# y escriba el resultado (blast output) en un archivo. 
-# − Input: Secuencia Fasta (ej. Xxxx.fas con una o más secuencias de aminoácidos obtenidas en Ej.1).
-# − Output: Reporte Blast (ej. blast.out, si deciden hacer múltiples pueden generar un único o varios archivos). 
-# Deben entregar el script Ex2.pm y su input file con una breve descripción de lo que hicieron, con una interpretación 
-# de los resultados del Blast, y mencionar como se debe ejecutar para probarlo.
-
 from Bio.Blast import NCBIWWW
 import utils
 

@@ -1,6 +1,4 @@
 from Bio.Seq import Seq
-from Bio import SeqIO
-from Bio.SeqRecord import SeqRecord
 import utils
 
 def find_start_codons(sequence, frame):
