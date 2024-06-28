@@ -1,25 +1,32 @@
 import pandas as pd
 import time
 import utils
+import subprocess
 
 def progresive_alignment(archivo_entrada, archivo_salida = "progresive_output.fasta"):
-	from Bio.Align.Applications import ClustalOmegaCommandline
-	clustalomega_cline = ClustalOmegaCommandline(infile=archivo_entrada, outfile=archivo_salida, force = True)
-	stdout, _ = clustalomega_cline()
-	return stdout
+	command = [
+		'clustalo',
+		'-i', archivo_entrada,
+		'-o', archivo_salida,
+		'--outfmt', 'fasta',
+		'--force'
+	]
+	subprocess.run(command, stdout = subprocess.PIPE)
 
 def iterative_alignment(archivo_entrada, archivo_salida = "iterative_output.fasta"):
-    from Bio.Align.Applications import MuscleCommandline
-    mafft_cline = MuscleCommandline(input=archivo_entrada, out=archivo_salida)
-    stdout, _ = mafft_cline()
-    return stdout
+	command = [
+		'muscle',
+		'-in',  archivo_entrada,
+		'-out', archivo_salida
+		]
+	subprocess.run(command, stdout=subprocess.PIPE)
 
 def calculate_excecution_time(func):
     start_time = time.time()
-    stdout = func("sequences_10.fasta")
+    func("sequences_10.fasta")
     end_time = time.time()
     execution_time = end_time - start_time
-    return stdout, execution_time
+    return execution_time
 
 def best_10_hits(blast_records):
 
@@ -50,8 +57,8 @@ if args['q']:
 	blast_records = utils.read_blast("local_blast_result.out")
 	best_10_hits(blast_records)
 	
-	stdout_p, tiempo_ejecucion_p = calculate_excecution_time(progresive_alignment)
-	stdout_i, tiempo_ejecucion_i = calculate_excecution_time(iterative_alignment)
+	tiempo_ejecucion_p = calculate_excecution_time(progresive_alignment)
+	tiempo_ejecucion_i = calculate_excecution_time(iterative_alignment)
 
 	data = {
 	    "Función de Alineamiento": ["Progresivo", "Iterativo"],
