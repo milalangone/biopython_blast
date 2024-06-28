@@ -31,5 +31,15 @@ El archivo **pipeline.sh** es un script de Bash que permite ejecutar los ejercic
   - input: archivo en BLAST
   - output: archivos de alineamiento progresivo con CLUSTAW y alineamiento iterativo con MUSCLE.
 
+## Ejercicio 4
+
+- **Ex4.py**
+  - Toma el archivo `sequence.gb` y utiliza la función _getorf_ de EMBOSS para hallar los posibles ORF de la secuencia. También toma una archivo fasta y analiza los _motifs_ utilizando la base de datos de prosite.
+
+  - input: archivo genebank y archivo fatsa
+  - output: archvo de secuencias de aa para cada orf hallado y archivo de motifs.
+
+
+
 - **utils.py**
   - Contiene las funciones correspondientes para lectura y escritura de archivos de tipo Genbank, Blast y Fasta. También incluye la importación de la librería _argparse_ que es utilizada a lo largo de todos los _scripts_.
