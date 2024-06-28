@@ -49,5 +49,5 @@ El archivo **prep_env.sh** es el primer paso del pipeline de trabajo e instala e
   - Contiene las funciones correspondientes para lectura y escritura de archivos de tipo Genbank, Blast y Fasta. También incluye la importación de la librería _argparse_ que es utilizada a lo largo de todos los _scripts_.
 
 # Diagrama de ejecución y comunicación de archivos
-![](diagrama_de_ejecución_y_comunicación.png)
+![Diagrrama de ejecución y comunicación de archivos](diagrama_de_ejecución_y_comunicación.png)
 
