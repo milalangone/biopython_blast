@@ -2,6 +2,8 @@
 
 El archivo **pipeline.sh** es un script de Bash que permite ejecutar los ejercicio 1, 2 y 3 íntegramente. Todos los ejercicios fueron resueltos utilizando Python, en particular la librería Biopython. Se debe contar con un archivo de secuencias llamado "sequence.gb" en el mismo _path_, decidimos no incluirlo en este repositorio, pero puede descargarse en el siguiente [enlace](https://drive.google.com/file/d/1kc1isJw3agbjIMkszY0KfMPjylPciBxx/view?usp=sharing).
 
+El archivo **prep_env.sh** es el primer paso del pipeline de trabajo e instala el _software_ y dependencias necesarias para la ejecución del trabajo.
+
 ## Ejercicio 1
 
 - **Ex1.py**:
@@ -39,7 +41,12 @@ El archivo **pipeline.sh** es un script de Bash que permite ejecutar los ejercic
   - input: archivo genebank y archivo fatsa
   - output: archvo de secuencias de aa para cada orf hallado y archivo de motifs.
 
-
+## Ejercicio 5
+- input: archivo Genbank con nucleótidos (`sequence.gb`) de la secuencia de interés
+- output: archivo FASTA con _primers_ de la hebra directa y la hebra complementaria. 
 
 - **utils.py**
   - Contiene las funciones correspondientes para lectura y escritura de archivos de tipo Genbank, Blast y Fasta. También incluye la importación de la librería _argparse_ que es utilizada a lo largo de todos los _scripts_.
+
+# Diagrama de ejecución y comunicación de archivos
+
